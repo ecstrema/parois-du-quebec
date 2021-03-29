@@ -64,10 +64,6 @@
 </div>
 
 <style>
-	.page.selected {
-		text-decoration: underline;
-	}
-
 	.header {
 		box-shadow: 0 0 3px 0 lightblue;
 	}
