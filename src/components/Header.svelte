@@ -1,0 +1,141 @@
+<script lang="ts">
+	import { onMount } from 'svelte';
+	import { t, locale } from 's20n';
+
+	let windowWidth: number = undefined;
+	let showMenu: boolean = false;
+	const showMenuThreshold: number = 900;
+
+
+	onMount(() => {
+		windowWidth = window.innerWidth;
+		window.addEventListener('resize', () => {
+			windowWidth = window.innerWidth;
+		});
+	});
+
+	function toggleLanguage() {
+		if ($locale === "fr") {
+			$locale = "en";
+		}
+		else {
+			$locale = "fr";
+		}
+	}
+
+	$: switchLanguage = $t("navbar.switchLanguage");
+
+	$: pages = [
+		{ t: $t("navbar.home"), href: "." },
+		{ t: $t("navbar.updates"), href: "updates" },
+		{ t: $t("navbar.documents"), href: "documents" },
+		{ t: $t("navbar.contact"), href: "contact" },
+		{ t: $t("navbar.map"), href: "map" },
+	]
+</script>
+
+<div class="header">
+	<div class="navbar">
+		<a class="title" href=".">
+			{$t("navbar.title")}
+		</a>
+		<div class="spacer"></div>
+		{#if windowWidth && windowWidth > showMenuThreshold}
+		<nav class="pages">
+			{#each pages as p}
+				<a class="page" href={p.href}>{p.t}</a>
+			{/each}
+			<p tabindex="0" class="page" on:click={toggleLanguage}>{switchLanguage}</p>
+		</nav>
+		{:else}
+			<svg height="32px" viewBox="0 0 32 32" width="32px" class="hamburger" on:click={() => showMenu = !showMenu}>
+				<path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
+			</svg>
+		{/if}
+	</div>
+	{#if showMenu && windowWidth < showMenuThreshold}
+		<div class="menu">
+			{#each pages as p}
+				<a class="page" href={p.href}>{p.t}</a>
+			{/each}
+			<p class="page" on:click={toggleLanguage}>{switchLanguage}</p>
+		</div>
+	{/if}
+</div>
+
+<style>
+	.page.selected {
+		text-decoration: underline;
+	}
+
+	.header {
+		box-shadow: 0 0 3px 0 lightblue;
+	}
+	.menu {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 12px;
+		padding-bottom: 12px;
+	}
+
+	.hamburger {
+		min-width: 32px;
+		position:  absolute;
+		right: 20px;
+		cursor: pointer;
+	}
+
+	.navbar {
+		display: flex;
+		align-items: center;
+
+		padding-right: 30px;
+		padding-left: 30px;
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+	.title {
+		color: rgb(244, 188, 81);
+		font-size: 50px;
+		text-transform: capitalize;
+		text-decoration: none;
+	}
+
+	@media only screen and (max-width: 1000px) {
+		.title {
+			font-size: 40px;
+		}
+	}
+
+	.pages {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		gap: 20px;
+	}
+
+	.spacer {
+		flex-grow: 1;
+		min-width: 40px;
+	}
+
+	.page {
+		align-self: center;
+		cursor: pointer;
+		user-select: none;
+
+		text-decoration: none;
+  		font-size: 17px;
+
+		color: rgb(12, 12, 12);
+		transition: color 0.1s linear;
+	}
+	.page:hover {
+		color:rgb(244, 188, 81);
+	}
+	.page:focus {
+		font-weight: 600;
+		outline: none;
+	}
+</style>

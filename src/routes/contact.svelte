@@ -1,0 +1,78 @@
+<script lang="ts">
+	import Title from "../components/Title.svelte";
+	import { t } from "s20n";
+
+	// const emailAddress = "info@escaladelaurentides.ca";
+	const emailAddress = "info@escaladeweir.ca";
+</script>
+
+<Title>{$t("contact.title")}</Title>
+<div class="center">
+	<p class="description">
+		{$t("contact.description")}
+	</p>
+	<a class="mailto" target="_blank" rel="noopener noreferrer" href="mailto:{emailAddress}?subject={$t("contact.email.subject")}">{$t("contact.button")}</a>
+	<p class="note">{$t("contact.note")}<br/><strong>{emailAddress}</strong>.</p>
+</div>
+
+<style>
+
+	.description {
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 80%;
+	}
+	.center {
+		text-align: center;
+	}
+
+	.note {
+		color: #999;
+		font-size: 12px;
+	}
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    a:focus {
+        outline: none;
+    }
+    .mailto {
+		display: inline-block;
+		text-align: center;
+		width: 60%;
+		border-radius: 10px;
+		background-color: #1976d2;
+		color: white;
+
+		margin-top: 40px;
+		margin-bottom: 30px;
+
+		padding: 10px;
+		cursor: pointer;
+
+		box-shadow: 4px 4px 3px rgba(149,157,165,0.6);
+		transition: box-shadow 0.2s linear;
+	}
+	.mailto:hover, .mailto:focus {
+		box-shadow: 4px 4px 1px rgba(149,157,165,0.6);
+	}
+	.mailto:focus {
+		font-weight: 600;
+		outline: none;
+	}
+	@media only screen and (max-width: 800px) {
+		.mailto {
+			width: 100%;
+			margin-top: 20px;
+		}
+	}
+	@media only screen and (max-width: 600px) {
+		.mailto {
+			width: 100%;
+			margin-top: 10px;
+		}
+	}
+</style>

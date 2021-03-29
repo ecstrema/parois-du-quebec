@@ -1,0 +1,36 @@
+{
+  "acceuil": {
+    "imgAltText": "The new guidebook's front cover.",
+    "preview": "See preview",
+    "title": "The new Laurentians guidebook is there"
+  },
+  "contact": {
+    "button": "Contact authors by email",
+    "description": "Thank you for notifying us for any updates/errors/inconsistencies in the guidebook.",
+    "email": {
+      "subject": "Infos for the Laurentians guidebook"
+    },
+    "note": "If this link doesn't work, send an email to",
+    "title": "Contact"
+  },
+  "documents": {
+    "oldGuidebooks": "Some older guidebooks",
+    "title": "Documents"
+  },
+  "map": {
+    "title": "Map"
+  },
+  "navbar": {
+    "contact": "Contact",
+    "documents": "Documents",
+    "home": "Home",
+    "map": "Map",
+    "switchLanguage": "Français",
+    "title": "Laurentians Climbing",
+    "updates": "Updates"
+  },
+  "updates": {
+    "noUpdatesYet": "There is no updates to the guidebook yet.",
+    "title": "Updates"
+  }
+}

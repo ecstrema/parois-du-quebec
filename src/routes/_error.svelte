@@ -1,40 +1,32 @@
 <script lang="ts">
-	export let status: number;
-	export let error: Error;
+    import Divider from "../components/Divider.svelte";
 
-	const dev = process.env.NODE_ENV === 'development';
+    export let status;
+    export let error;
 </script>
 
-<style>
-	h1, p {
-		margin: 0 auto;
-	}
-
-	h1 {
-		font-size: 2.8em;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
-</style>
-
-<svelte:head>
-	<title>{status}</title>
-</svelte:head>
-
 <h1>{status}</h1>
-
 <p>{error.message}</p>
+<h2>That's an error.</h2>
+<h2><a href=".">Go back to home page?</a></h2>
+<Divider/>
 
-{#if dev && error.stack}
-	<pre>{error.stack}</pre>
-{/if}
+
+<style>
+    h1, p, h2, a {
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    a:hover, a:focus {
+        box-shadow: 1px 1px 0 0 lightgray;
+    }
+    a:focus {
+        outline: none;
+    }
+</style>

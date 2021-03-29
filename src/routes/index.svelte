@@ -1,50 +1,64 @@
-<script>
-	import successkid from 'images/successkid.jpg';
+<script lang="ts">
+	import Title from "../components/Title.svelte";
+	import { t } from "s20n";
 </script>
 
+<Title>{$t("acceuil.title")}</Title>
+<div class="main-flex">
+	<div class="preview-side">
+		<img class="cover" src="/Cover.jpg" alt={$t("acceuil.imgAltText")}/>
+		<div tabindex="0" class="preview">{$t("acceuil.preview")}</div>
+	</div>
+	<p class="text-side">
+		Un tout nouveau guide contenant les parois de <i>Julien Labedan</i>, <i>Lac Boisseau</i>
+	</p>
+</div>
+
 <style>
-	h1, figure, p {
+	.preview-side {
+		display: flex;
+		flex-direction: column;
+		max-width: 100%;
+		width: 300px;
+		min-width: 250px;
+		gap: 20px;
+		align-items: center;
+	}
+	.preview {
 		text-align: center;
-		margin: 0 auto;
-	}
+		width: 60%;
+		border-radius: 10px;
+		background-color: #1976d2;
+		color: white;
 
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
+		padding: 5px;
+		cursor: pointer;
 
-	figure {
-		margin: 0 0 1em 0;
+		box-shadow: 4px 4px 3px rgba(149,157,165,0.6);
+		transition: box-shadow 0.1s linear;
 	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
+	.preview:hover, .preview:focus {
+		box-shadow: 4px 4px 1px rgba(149,157,165,0.6);
 	}
-
-	p {
-		margin: 1em auto;
+	.preview:focus {
+		font-weight: 600;
+		outline: none;
 	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
+	.cover {
+		max-width: 100%;
+		box-shadow: 0 8px 24px rgba(149,157,165,0.6);
+	}
+	.main-flex {
+		display: flex;
+		gap: 20px;
+		margin: 20px;
+	}
+	@media only screen and (max-width: 600px) {
+		.main-flex {
+			flex-wrap: wrap;
+		}
+		.preview-side {
+			width: 100%;
 		}
 	}
 </style>
-
-<svelte:head>
-	<title>Sapper project template</title>
-</svelte:head>
-
-<h1>Great success!</h1>
-
-<figure>
-	<img alt="Success Kid" src="{successkid}">
-	<figcaption>Have fun with Sapper!</figcaption>
-</figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
