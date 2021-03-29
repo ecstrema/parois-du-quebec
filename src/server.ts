@@ -9,10 +9,8 @@ const dev = NODE_ENV === 'development';
 polka() // You can also use Express
 	.use(
 		'sapper-template-master',
-		compression({ threshold: 0 }),
+		// compression({ threshold: 0 }),
 		sirv('static', { dev }),
 		sapper.middleware()
 	)
-	.listen(PORT, err => {
-		if (err) console.log('error', err);
-	});
+	.listen(PORT);
