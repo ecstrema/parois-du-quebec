@@ -1,12 +1,13 @@
 <script lang="ts">
 	import Title from "../components/Title.svelte";
 	import { t } from "s20n";
+	import cover from "./../../static/cover.jpg";
 </script>
 
 <Title>{$t("acceuil.title")}</Title>
 <div class="main-flex">
 	<div class="preview-side">
-		<img class="cover" src="/Cover.jpg" alt={$t("acceuil.imgAltText")}/>
+		<img class="cover" src="{cover}" alt={$t("acceuil.imgAltText")}/>
 		<div tabindex="0" class="preview">{$t("acceuil.preview")}</div>
 	</div>
 	<p class="text-side">

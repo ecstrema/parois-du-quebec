@@ -4,8 +4,8 @@
 	import type { localeType } from "s20n";
 
 	const locales: localeType[] = [
-		{ path: "/locales/fr.json", name: "fr"},
-		{ path: "/locales/en.json", name: "en"},
+		{ path: "./locales/fr.json", name: "fr"},
+		{ path: "./locales/en.json", name: "en"},
 	]
 </script>
 
