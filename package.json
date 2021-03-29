@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build",
-    "export": "sapper export",
+    "export": "sapper export  --basepath sapper-template-master --legacy",
     "start": "node __sapper__/build"
   },
   "dependencies": {
