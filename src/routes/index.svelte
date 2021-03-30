@@ -2,7 +2,7 @@
 	import Title from "../components/Title.svelte";
 	import { t } from "s20n";
 	import HiddenLinks from "../components/HiddenLinks.svelte";
-	import cover from "../images/cover.jpg";
+	import cover from "images/cover.jpg";
 </script>
 
 <HiddenLinks/>
