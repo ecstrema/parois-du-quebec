@@ -5,14 +5,15 @@
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build",
-    "export": "sapper export  --basepath sapper-template-master --legacy",
+    "export": "sapper export  --basepath sapper-template-master --legacy --entry \"/ /404\"",
     "start": "node __sapper__/build",
     "validate": "svelte-check --ignore src/node_modules/@sapper"
   },
   "dependencies": {
     "compression": "^1.7.1",
     "polka": "next",
-    "sirv": "^1.0.0"
+    "sirv": "^1.0.0",
+    "svelte-i18n": "^3.3.9"
   },
   "devDependencies": {
     "@babel/core": "^7.13.14",

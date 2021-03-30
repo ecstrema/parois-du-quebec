@@ -1,19 +1,16 @@
 <script lang="ts">
-    import Divider from "../components/Divider.svelte";
-
+    import HiddenLinks from "../components/HiddenLinks.svelte";
+    import { t } from "s20n";
     export let status;
-    export let error;
 </script>
 
+<HiddenLinks/>
 <h1>{status}</h1>
-<p>{error.message}</p>
-<h2>That's an error.</h2>
-<h2><a href=".">Go back to home page?</a></h2>
-<Divider/>
-
+<h2>{$t("404.error", "C'est une erreur...")}</h2>
+<h2><a href=".">{$t("404.backToHomePage", "Retour à la page d'acceuil")}</a></h2>
 
 <style>
-    h1, p, h2, a {
+    h1, h2, a {
         text-align: center;
     }
 

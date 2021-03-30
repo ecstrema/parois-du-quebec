@@ -1,4 +1,8 @@
 {
+  "404": {
+    "backToHomePage": "Retour à la page d'acceuil",
+    "error": "Oops, c'est une erreur..."
+  },
   "acceuil": {
     "imgAltText": "La page de couverture du livre-guide.",
     "preview": "Voir des extraits",

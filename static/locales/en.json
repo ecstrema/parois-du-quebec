@@ -1,4 +1,8 @@
 {
+  "404": {
+    "backToHomePage": "Back to home page",
+    "error": "Oops, that's an error..."
+  },
   "acceuil": {
     "imgAltText": "The new guidebook's front cover.",
     "preview": "See preview",
