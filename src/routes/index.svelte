@@ -2,14 +2,14 @@
 	import Title from "../components/Title.svelte";
 	import { t } from "s20n";
 	import HiddenLinks from "../components/HiddenLinks.svelte";
-	import cover from "../../static/cover.jpg";
+	import cover from "../images/cover.jpg";
 </script>
 
 <HiddenLinks/>
 <Title>{$t("acceuil.title")}</Title>
 <div class="main-flex">
 	<div class="preview-side">
-		<img class="cover" src="cover.jpg" alt={$t("acceuil.imgAltText")}/>
+		<img class="cover" src="{cover}" alt={$t("acceuil.imgAltText")}/>
 		<div tabindex="0" class="preview">{$t("acceuil.preview")}</div>
 	</div>
 	<p class="text-side">
