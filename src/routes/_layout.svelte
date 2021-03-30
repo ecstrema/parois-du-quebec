@@ -20,4 +20,11 @@
 		padding-left: 30px;
 		padding-right: 30px;
 	}
+
+	@media only screen and (max-width: 600px) {
+		main {
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	}
 </style>

@@ -27,10 +27,10 @@
 
 	$: pages = [
 		{ t: $t("navbar.home"), href: "." },
-		{ t: $t("navbar.updates"), href: "updates" },
-		{ t: $t("navbar.documents"), href: "documents" },
-		{ t: $t("navbar.contact"), href: "contact" },
-		{ t: $t("navbar.map"), href: "map" },
+		{ t: $t("navbar.updates"), href: "./updates" },
+		{ t: $t("navbar.documents"), href: "./documents" },
+		{ t: $t("navbar.contact"), href: "./contact" },
+		{ t: $t("navbar.map"), href: "./map" },
 	]
 </script>
 
@@ -79,6 +79,7 @@
 		min-width: 32px;
 		position:  absolute;
 		right: 20px;
+		top: 25px;
 		cursor: pointer;
 	}
 
@@ -98,7 +99,7 @@
 		text-decoration: none;
 	}
 
-	@media only screen and (max-width: 1000px) {
+	@media only screen and (max-width: 1100px) {
 		.title {
 			font-size: 40px;
 		}

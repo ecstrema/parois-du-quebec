@@ -1,8 +1,10 @@
 <script lang="ts">
 	import Title from "../components/Title.svelte";
 	import { t } from "s20n";
+	import HiddenLinks from "../components/HiddenLinks.svelte";
 </script>
 
+<HiddenLinks/>
 <Title>{$t("acceuil.title")}</Title>
 <div class="main-flex">
 	<div class="preview-side">

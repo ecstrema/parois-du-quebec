@@ -1,10 +1,8 @@
 <script lang="ts">
-    import HiddenLinks from "../components/HiddenLinks.svelte";
     import { t } from "s20n";
     export let status;
 </script>
 
-<HiddenLinks/>
 <h1>{status}</h1>
 <h2>{$t("404.error", "C'est une erreur...")}</h2>
 <h2><a href=".">{$t("404.backToHomePage", "Retour à la page d'acceuil")}</a></h2>
