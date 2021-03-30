@@ -51,6 +51,7 @@
 		margin-bottom: 30px;
 
 		padding: 10px;
+		box-sizing: border-box;
 		cursor: pointer;
 
 		box-shadow: 4px 4px 3px rgba(149,157,165,0.6);

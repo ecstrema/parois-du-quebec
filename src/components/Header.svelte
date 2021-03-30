@@ -91,6 +91,7 @@
 		padding-left: 30px;
 		padding-top: 20px;
 		padding-bottom: 10px;
+        box-sizing: border-box;
 	}
 	.title {
 		color: rgb(244, 188, 81);

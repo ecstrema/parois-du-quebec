@@ -17,6 +17,7 @@
         border: 1px solid gray;
         border-radius: 10px;
         padding: 5px;
+        box-sizing: border-box;
     }
     a:hover, a:focus {
         box-shadow: 1px 1px 0 0 lightgray;

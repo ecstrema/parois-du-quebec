@@ -29,12 +29,13 @@
 	}
 	.preview {
 		text-align: center;
-		width: 60%;
+		width: 70%;
 		border-radius: 10px;
 		background-color: #1976d2;
 		color: white;
 
 		padding: 5px;
+		box-sizing: border-box;
 		cursor: pointer;
 
 		box-shadow: 4px 4px 3px rgba(149,157,165,0.6);
@@ -61,6 +62,15 @@
 			flex-wrap: wrap;
 		}
 		.preview-side {
+			width: 100%;
+		}
+		.preview {
+			width: 85%;
+		}
+	}
+
+	@media only screen and (max-width: 400px) {
+		.preview {
 			width: 100%;
 		}
 	}
