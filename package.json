@@ -35,7 +35,7 @@
     "rollup": "^2.44.0",
     "rollup-plugin-svelte": "^7.1.0",
     "rollup-plugin-terser": "^7.0.2",
-    "s20n": "^0.4.1",
+    "s20n": "^0.4.3",
     "sapper": "^0.28.0",
     "svelte": "^3.17.3",
     "svelte-check": "^1.0.46",
