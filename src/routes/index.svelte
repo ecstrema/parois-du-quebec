@@ -13,8 +13,7 @@
 		<div tabindex="0" class="preview">{$t("index.preview")}</div>
 	</div>
 	<p class="text-side">
-		{$t("index.description")}
-		Un tout nouveau guide contenant les parois de <i>Julien Labedan</i>, <i>Lac Boisseau</i>
+		{@html $t("index.description", null, { useMarkdown: true })}
 	</p>
 </div>
 

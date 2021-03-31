@@ -10,7 +10,7 @@
       "subject": "Infos sur le guide des Laurentides"
     },
     "note": "Si ce lien ne fonctionne pas, vous pouvez envoyer un courriel à l'adresse",
-    "title": "Contact"
+    "title": "Contact",
   },
   "documents": {
     "oldGuidebooks": "Quelques vieux guides",
@@ -20,7 +20,7 @@
     "imgAltText": "La page de couverture du livre-guide",
     "preview": "Voir des extraits",
     "title": "Le nouveau guide des parois Laurentiennes est à nos portes",
-    "description": "Un tout nouveau guide contenant les parois de <i>Julien Labedan</i>, <i>Lac Boisseau</i>..."
+    "description": "Un tout nouveau guide contenant les parois de _Julien Labedan_, _Lac Boisseau_..."
   },
   "map": {
     "title": "Carte"
