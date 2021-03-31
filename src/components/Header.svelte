@@ -43,7 +43,7 @@
 		{#if windowWidth && windowWidth > showMenuThreshold}
 		<nav class="pages">
 			{#each pages as p}
-				<a class="page" href={p.href}>{p.t}</a>
+				<a class="page margin-right" href={p.href}>{p.t}</a>
 			{/each}
 			<p tabindex="0" class="page" on:click={toggleLanguage}>{switchLanguage}</p>
 		</nav>
@@ -56,9 +56,9 @@
 	{#if showMenu && windowWidth < showMenuThreshold}
 		<div class="menu">
 			{#each pages as p}
-				<a class="page" href={p.href}>{p.t}</a>
+				<a class="page margin-bottom" href={p.href}>{p.t}</a>
 			{/each}
-			<p class="page" on:click={toggleLanguage}>{switchLanguage}</p>
+			<p tabindex="0" class="page" on:click={toggleLanguage}>{switchLanguage}</p>
 		</div>
 	{/if}
 </div>
@@ -71,8 +71,13 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 12px;
 		padding-bottom: 12px;
+	}
+	.margin-bottom {
+		margin-bottom: 12px;
+	}
+	.margin-right {
+		margin-right: 20px;
 	}
 
 	.hamburger {
@@ -110,7 +115,6 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: flex-end;
-		gap: 20px;
 	}
 
 	.spacer {

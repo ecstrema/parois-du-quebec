@@ -24,8 +24,8 @@
 		max-width: 100%;
 		width: 300px;
 		min-width: 250px;
-		gap: 20px;
 		align-items: center;
+		margin-right: 20px;
 	}
 	.preview {
 		text-align: center;
@@ -33,6 +33,7 @@
 		border-radius: 10px;
 		background-color: #1976d2;
 		color: white;
+		margin-top: 20px;
 
 		padding: 5px;
 		box-sizing: border-box;
@@ -54,7 +55,6 @@
 	}
 	.main-flex {
 		display: flex;
-		gap: 20px;
 		margin: 20px;
 	}
 	@media only screen and (max-width: 600px) {
