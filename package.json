@@ -1,7 +1,8 @@
 {
-  "name": "TODO",
-  "description": "TODO",
-  "version": "0.0.1",
+  "name": "escaladelaurentides",
+  "description": "The source code for escaladelaurentides.ca",
+  "version": "0.1.0",
+  "private": "true",
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build",
