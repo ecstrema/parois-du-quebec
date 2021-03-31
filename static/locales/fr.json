@@ -3,11 +3,6 @@
     "backToHomePage": "Retour à la page d'acceuil",
     "error": "Oops, c'est une erreur..."
   },
-  "acceuil": {
-    "imgAltText": "La page de couverture du livre-guide",
-    "preview": "Voir des extraits",
-    "title": "Le nouveau guide des parois Laurentiennes est à nos portes"
-  },
   "contact": {
     "button": "Contacter les auteurs par courriel",
     "description": "Merci de nous faire part d’informations de mise à jour qui peuvent compléter/corriger le livre guide. Fournissez tous les détails possibles (secteur, voie, nom, ouvreur, date, etc.).\n",
@@ -20,6 +15,12 @@
   "documents": {
     "oldGuidebooks": "Quelques vieux guides",
     "title": "Documents"
+  },
+  "index": {
+    "imgAltText": "La page de couverture du livre-guide",
+    "preview": "Voir des extraits",
+    "title": "Le nouveau guide des parois Laurentiennes est à nos portes",
+    "description": "Un tout nouveau guide contenant les parois de <i>Julien Labedan</i>, <i>Lac Boisseau</i>..."
   },
   "map": {
     "title": "Carte"

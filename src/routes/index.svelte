@@ -6,13 +6,14 @@
 </script>
 
 <HiddenLinks/>
-<Title>{$t("acceuil.title")}</Title>
+<Title>{$t("index.title")}</Title>
 <div class="main-flex">
 	<div class="preview-side">
-		<img class="cover" src="{cover}" alt={$t("acceuil.imgAltText")}/>
-		<div tabindex="0" class="preview">{$t("acceuil.preview")}</div>
+		<img class="cover" src="{cover}" alt={$t("index.imgAltText")}/>
+		<div tabindex="0" class="preview">{$t("index.preview")}</div>
 	</div>
 	<p class="text-side">
+		{$t("index.description")}
 		Un tout nouveau guide contenant les parois de <i>Julien Labedan</i>, <i>Lac Boisseau</i>
 	</p>
 </div>
