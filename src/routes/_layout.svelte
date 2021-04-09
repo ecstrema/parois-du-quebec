@@ -10,8 +10,8 @@
 </script>
 
 <S20n current="fr" {locales}/>
-<div class="all">
-    <Header/>
+<Header/>
+<div class="centered-layout">
     <main>
         <slot></slot>
     </main>
@@ -30,10 +30,4 @@
 		}
 	}
 
-	@media only screen and (min-width: 1200px) {
-		.all {
-			padding-left: 50px;
-			padding-right: 50px;
-		}
-	}
 </style>
