@@ -10,7 +10,7 @@
 <div class="main-flex">
 	<div class="preview-side">
 		<img class="cover" src="{cover}" alt={$t("index.imgAltText")}/>
-		<div tabindex="0" class="preview">{$t("index.preview")}</div>
+		<button class="preview">{$t("index.preview")}</button>
 	</div>
 	<p class="text-side">
 		{@html $t("index.description", null, { useMarkdown: true })}
@@ -31,19 +31,17 @@
 		text-align: center;
 		width: 70%;
 		border-radius: 10px;
+		border-width: 0;
 		background-color: #1976d2;
 		color: white;
 		margin-top: 20px;
+		border-style: solid;
 
-		padding: 5px;
-		box-sizing: border-box;
+		padding: 10px;
 		cursor: pointer;
-
-		box-shadow: 4px 4px 3px rgba(149,157,165,0.6);
-		transition: box-shadow 0.1s linear;
 	}
 	.preview:hover, .preview:focus {
-		box-shadow: 4px 4px 1px rgba(149,157,165,0.6);
+		box-shadow: 0 0 6px rgb(35 173 255);
 	}
 	.preview:focus {
 		font-weight: 600;

@@ -53,12 +53,9 @@
 		padding: 10px;
 		box-sizing: border-box;
 		cursor: pointer;
-
-		box-shadow: 4px 4px 3px rgba(149,157,165,0.6);
-		transition: box-shadow 0.2s linear;
 	}
 	.mailto:hover, .mailto:focus {
-		box-shadow: 4px 4px 1px rgba(149,157,165,0.6);
+		box-shadow: 0 0 6px rgb(35 173 255);
 	}
 	.mailto:focus {
 		font-weight: 600;

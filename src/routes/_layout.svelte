@@ -29,5 +29,17 @@
 			padding-right: 20px;
 		}
 	}
+	@media only screen and (max-width: 500px) {
+		main {
+			padding-left: 12px;
+			padding-right: 12px;
+		}
+	}
+	@media only screen and (max-width: 400px) {
+		main {
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+	}
 
 </style>
