@@ -1,11 +1,11 @@
 <script lang="ts">
-    import { t } from "s20n";
-    export let status;
+    import { Tr } from "s20n";
+    export let status: string;
 </script>
 
 <h1>{status}</h1>
-<h2>{$t("404.error", "C'est une erreur...")}</h2>
-<h2><a href=".">{$t("404.backToHomePage", "Retour à la page d'acceuil")}</a></h2>
+<h2><Tr t="Oups. Une erreur s'est produite..."/></h2>
+<h2><a href="."><Tr t="Retour à la page d'acceuil"/></a></h2>
 
 <style>
     h1, h2, a {

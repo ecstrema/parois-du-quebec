@@ -1,15 +1,24 @@
 <script lang="ts">
     import Header from "../components/Header.svelte";
-	import S20n from "s20n";
-	import type { localeType } from "s20n";
+	import { registerLoader, initS20n } from "s20n";
+    import JSON5 from "json5";
 
-	const locales: localeType[] = [
-		{ path: "./locales/fr.json5", name: "fr"},
+    registerLoader({
+        matcher: ".json5",
+        handle: async function handler(path) {
+            return fetch(path).then(r => r.text()).then(t => JSON5.parse(t));
+        }
+    })
+
+
+	initS20n([
 		{ path: "./locales/en.json5", name: "en"},
-	]
+	], {
+		readFromNavigator: false,
+		sourceLocale: "fr",
+		})
 </script>
 
-<S20n current="fr" {locales}/>
 <Header/>
 <div class="centered-layout">
     <main>

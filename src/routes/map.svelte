@@ -1,9 +1,11 @@
+<svelte:head>
+	<title>{$t("Carte")}</title>
+</svelte:head>
+
 <script lang="ts">
-    import Title from "../components/Title.svelte";
     import { t } from "s20n";
 </script>
 
-<!-- <Title>{$t("map.title")}</Title> -->
 <div class="map-flex">
     <iframe class="map" title="map" src="https://www.google.com/maps/d/embed?mid=12rFi5ORnk2MO5N1Y5GMdapjfeEoScThB" width="640" height="480"></iframe>
 </div>

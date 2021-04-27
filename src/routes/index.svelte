@@ -1,19 +1,24 @@
+<svelte:head>
+	<title>{$t("Escalade Laurentides")}</title>
+</svelte:head>
+
 <script lang="ts">
 	import Title from "../components/Title.svelte";
-	import { t } from "s20n";
+	import { Tr, t } from "s20n";
 	import HiddenLinks from "../components/HiddenLinks.svelte";
+    import Marked from "../components/Marked.svelte";
 	const cover = "cover.jpg";
 </script>
 
 <HiddenLinks/>
-<Title>{$t("index.title")}</Title>
+<Title><Tr t="Le nouveau guide des parois Laurentiennes est à nos portes"/></Title>
 <div class="main-flex">
 	<div class="preview-side">
-		<img class="cover" src="{cover}" alt={$t("index.imgAltText")}/>
-		<button class="preview">{$t("index.preview")}</button>
+		<img class="cover" src="{cover}" alt={$t("La page de couverture du nouveau livre-guide")}/>
+		<button class="preview"><Tr t="Voir des extraits"/></button>
 	</div>
 	<p class="text-side">
-		{@html $t("index.description", null, { useMarkdown: true })}
+		<Marked t="Un tout nouveau guide contenant les parois de _Julien Labedan_, _Lac Boisseau_..."></Marked>
 	</p>
 </div>
 

@@ -1,10 +1,14 @@
+<svelte:head>
+	<title>{$t("Mises-à-jour")}</title>
+</svelte:head>
+
 <script lang="ts">
     import Title from "../components/Title.svelte";
-    import { t } from "s20n";
+    import { Tr, t } from "s20n";
 </script>
 
-<Title>{$t("updates.title")}</Title>
-<p class="note">{$t("updates.noUpdatesYet")}</p>
+<Title><Tr t="Mises-à-jour"/></Title>
+<p class="note"><Tr t="Il n'y a pour l'instant aucune mise-à-jour."/></p>
 
 <style>
     .note {

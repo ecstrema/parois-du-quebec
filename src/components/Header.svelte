@@ -1,11 +1,11 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { t, locale } from 's20n';
+	import { Tr, t, locale } from 's20n';
 
-	let windowWidth: number = undefined;
+	// Greater than 900, so that by default it shows the menu and not the hamburger.
+	let windowWidth: number = (process as any).browser  ? window.innerWidth : 1000;
 	let showMenu: boolean = false;
 	const showMenuThreshold: number = 900;
-
 
 	onMount(() => {
 		windowWidth = window.innerWidth;
@@ -23,22 +23,22 @@
 		}
 	}
 
-	$: switchLanguage = $t("navbar.switchLanguage");
+	$: switchLanguage = $t("English");
 
 	$: pages = [
-		{ t: $t("navbar.home"), href: "." },
-		{ t: $t("navbar.updates"), href: "./updates" },
-		{ t: $t("navbar.documents"), href: "./documents" },
-		{ t: $t("navbar.contact"), href: "./contact" },
-		{ t: $t("navbar.map"), href: "./map" },
+		{ t: $t("Acceuil"), href: "." },
+		{ t: $t("Mises-à-jour"), href: "./updates" },
+		{ t: $t("Documents"), href: "./documents" },
+		{ t: $t("Contact"), href: "./contact" },
+		{ t: $t("Carte"), href: "./map" },
 	]
 </script>
 
-<div class="header">
+<header class="header">
 	<div class="centered-layout">
 		<div class="navbar">
 			<a class="title" href=".">
-				{$t("navbar.title")}
+				<Tr t="Escalade Laurentides"/>
 			</a>
 			<div class="spacer"></div>
 			{#if windowWidth && windowWidth > showMenuThreshold}
@@ -46,9 +46,9 @@
 				{#each pages as p}
 					<a class="page margin-right" href={p.href}>{p.t}</a>
 				{/each}
-				<p tabindex="0" class="page" on:click={toggleLanguage}>{switchLanguage}</p>
+				<p tabindex="0" class="page" on:keypress|preventDefault={toggleLanguage} on:click={toggleLanguage}>{switchLanguage}</p>
 			</nav>
-			{:else}
+			{:else if windowWidth}
 				<svg height="32px" viewBox="0 0 32 32" width="32px" class="hamburger" on:click={() => showMenu = !showMenu}>
 					<path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
 				</svg>
@@ -63,7 +63,7 @@
 			</div>
 		{/if}
 	</div>
-</div>
+</header>
 
 <style>
 	.header {
