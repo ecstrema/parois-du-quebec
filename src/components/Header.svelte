@@ -27,7 +27,7 @@
 
 	$: pages = [
 		{ t: $t("Acceuil"), href: "." },
-		{ t: $t("Mises-à-jour"), href: "./updates" },
+		// { t: $t("Mises-à-jour"), href: "./updates" },
 		{ t: $t("Documents"), href: "./documents" },
 		{ t: $t("Contact"), href: "./contact" },
 		{ t: $t("Carte"), href: "./map" },
@@ -46,7 +46,7 @@
 				{#each pages as p}
 					<a class="page margin-right" href={p.href}>{p.t}</a>
 				{/each}
-				<p tabindex="0" class="page" on:keypress|preventDefault={toggleLanguage} on:click={toggleLanguage}>{switchLanguage}</p>
+				<p tabindex="0" class="page underline" on:keypress|preventDefault={toggleLanguage} on:click={toggleLanguage}>{switchLanguage}</p>
 			</nav>
 			{:else if windowWidth}
 				<svg height="32px" viewBox="0 0 32 32" width="32px" class="hamburger" on:click={() => showMenu = !showMenu}>
@@ -59,7 +59,7 @@
 				{#each pages as p}
 					<a class="page margin-bottom" href={p.href}>{p.t}</a>
 				{/each}
-				<p tabindex="0" class="page" on:click={toggleLanguage}>{switchLanguage}</p>
+				<p tabindex="0" class="page underline" on:keypress|preventDefault={toggleLanguage} on:click={toggleLanguage}>{switchLanguage}</p>
 			</div>
 		{/if}
 	</div>
@@ -141,5 +141,9 @@
 	.page:focus {
 		font-weight: 600;
 		outline: none;
+	}
+
+	.underline {
+		text-decoration: underline;
 	}
 </style>

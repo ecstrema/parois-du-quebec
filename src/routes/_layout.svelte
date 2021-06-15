@@ -1,14 +1,14 @@
 <script lang="ts">
-    import Header from "../components/Header.svelte";
+	import Header from "../components/Header.svelte";
 	import { registerLoader, initS20n } from "s20n";
-    import JSON5 from "json5";
+	import JSON5 from "json5";
 
-    registerLoader({
-        matcher: ".json5",
-        handle: async function handler(path) {
-            return fetch(path).then(r => r.text()).then(t => JSON5.parse(t));
-        }
-    })
+	registerLoader({
+		matcher: ".json5",
+		handle: async function handler(path) {
+			return fetch(path).then(r => r.text()).then(t => JSON5.parse(t));
+		}
+	})
 
 
 	initS20n([
@@ -20,10 +20,10 @@
 </script>
 
 <Header/>
-<div class="centered-layout">
-    <main>
-        <slot></slot>
-    </main>
+<div class="centered-layout" style="margin-bottom: 70px;">
+	<main>
+		<slot></slot>
+	</main>
 </div>
 
 <style>
@@ -31,6 +31,7 @@
 		padding-left: 30px;
 		padding-right: 30px;
 	}
+
 
 	@media only screen and (max-width: 600px) {
 		main {

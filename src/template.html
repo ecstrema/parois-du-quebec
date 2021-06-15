@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -12,6 +13,33 @@
 	<link rel="manifest" href="manifest.json" crossorigin="use-credentials">
 	<link rel="icon" type="image/png" href="favicon.ico">
 	<link rel="apple-touch-icon" href="196.png">
+	<style>
+		html,
+		body {
+			height: 100%;
+		}
+
+		body {
+			display: flex;
+			flex-direction: column;
+		}
+
+		#sapper {
+			flex: 1 0 auto;
+		}
+
+		#copyright {
+			text-align:center;
+			font-size:14px;
+			color:#aaa;
+		}
+
+		footer {
+			flex-shrink: 0;
+			background-color: #ffffff;
+		}
+
+	</style>
 
 	<!-- Sapper creates a <script> tag containing `src/client.js`
 	     and anything else it needs to hydrate the app and
@@ -27,9 +55,17 @@
 	     the current page has one -->
 	%sapper.head%
 </head>
+
 <body>
 	<!-- The application will be rendered inside this element,
 	     because `src/client.js` references it -->
 	<div id="sapper">%sapper.html%</div>
+	<footer>
+		<p id="copyright">Marche & Cornellier © 2021</p>
+	</footer>
+	<script>
+		document.getElementById("copyright").textContent = "Marche & Cornellier © " + new Date().getFullYear();
+	</script>
 </body>
+
 </html>

@@ -15,14 +15,24 @@
 <div class="main-flex">
 	<div class="preview-side">
 		<img class="cover" src="{cover}" alt={$t("La page de couverture du nouveau livre-guide")}/>
-		<button class="preview"><Tr t="Voir des extraits"/></button>
+		<button class="preview">
+			<img class="download-icon" src="icons/TablerDownload.svg" aria-hidden="true" alt="download icon"/>
+			<Tr t="Voir des extraits"/>
+		</button>
 	</div>
-	<p class="text-side">
+	<div class="text-side">
 		<Marked t="Un tout nouveau guide contenant les parois de _Julien Labedan_, _Lac Boisseau_..."></Marked>
-	</p>
+	</div>
 </div>
 
 <style>
+	.download-icon {
+		height: 24px;
+		width: 24px;
+		/* hack to get a white image */
+		filter: invert(1);
+		margin-right: 10px;
+	}
 	.preview-side {
 		display: flex;
 		flex-direction: column;
@@ -35,15 +45,24 @@
 	.preview {
 		text-align: center;
 		width: 70%;
-		border-radius: 10px;
+		border-radius: 18px;
 		border-width: 0;
 		background-color: #1976d2;
 		color: white;
 		margin-top: 20px;
 		border-style: solid;
 
+		font-size: 16px;
+
 		padding: 10px;
 		cursor: pointer;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		/* Needed for an unknown and very strange reason... */
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', serif
 	}
 	.preview:hover, .preview:focus {
 		box-shadow: 0 0 6px rgb(35 173 255);
