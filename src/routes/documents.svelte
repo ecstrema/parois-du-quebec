@@ -42,7 +42,7 @@
 </div>
 
 <div>
-    <h2><Tr t="Autres resources gratuites"/>:</h2>
+    <h2><Tr t="Autres resources"/>:</h2>
     <div class="responsive-center">
         {#each otherResources as or}
             <a class="download-button" href={or.link} target="_blank" rel="noopener noreferrer">
