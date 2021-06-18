@@ -43,8 +43,8 @@ En attendant la parution, vous pouvez consulter la section [Documents](./documen
 
 <style>
 	.text-side {
-		color: #757575;	
-/* 		font-family: Open-sans; */
+		color: #757575;
+		line-height: 24px;
 	}
 	.download-icon {
 		height: 24px;
