@@ -36,12 +36,8 @@
     * _Rigaud_ (bonus en Montérégie).
 - **plus de 500 voies** dans tous les niveaux et tous les styles, réparties dans **une quarantaine de secteurs**.
 - des informations historiques, des fiches sur les personnalités marquantes, sur les régions alentour, etc.
-			   
-Le livre devrait être disponible dans la plupart des centres d'escalade et boutiques de plein air de la région.
-
-Il sera également possible de le commander directement depuis ce site.
-
-_5% des revenus sont reversés au Club des Montagnards Laurentiens (CML), le club régional généralement en charge des développements et entretiens des sites d’escalades des Laurentides._"></Marked>
+   
+En attendant la parution, vous pouvez consulter la section [Documents](./documents) où nous avons rassemblé la majorité des guides de cette région actuellement disponibles en ligne."></Marked>
 	</div>
 </div>
 
