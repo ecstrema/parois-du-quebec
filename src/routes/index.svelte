@@ -37,7 +37,7 @@
 - **plus de 500 voies** dans tous les niveaux et tous les styles, réparties dans **une quarantaine de secteurs**.
 - des informations historiques, des fiches sur les personnalités marquantes, sur les régions alentour, etc.
    
-En attendant la parution, vous pouvez consulter la section [Documents](./documents) où nous avons rassemblé la majorité des guides de cette région actuellement disponibles en ligne."></Marked>
+En attendant la parution, vous pouvez consulter la section [documents](./documents) où nous avons rassemblé la majorité des guides de cette région actuellement disponibles en ligne."></Marked>
 	</div>
 </div>
 
@@ -45,6 +45,9 @@ En attendant la parution, vous pouvez consulter la section [Documents](./documen
 	.text-side {
 		color: #757575;
 		line-height: 24px;
+	}
+	.text-side a {
+		color: inherit;
 	}
 	.download-icon {
 		height: 24px;
