@@ -21,7 +21,7 @@
 		</button> -->
 	</div>
 	<div class="text-side">
-		<Marked t="Le tout premier guide des parois des Laurentides est sur le point de voir le jour. Il contiendra:
+		<Marked t="Le tout **premier guide des parois des Laurentides** est sur le point de voir le jour. Il contiendra:
  - **une douzaine de parois** classiques des Laurentides, dont: _Attitude Montagne_, _Baldy_, _Belle-Neige_, _Julien Labedan_, _Kanata_, _Lac Boisseau_, _Lac Gervais_, _Lac du Poisson Blanc_, _Montagne Verte_, _Paroi Laurin_ (_Macaza_), et, bonus en Montérégie, _Rigaud_.
 - **plus de 500 voies** dans tous les niveaux et tous les styles, réparties dans **une quarantaine de secteurs**.
 - des informations historiques, des fiches sur les personalités marquantes, sur les régions alentour, etc.
@@ -35,6 +35,10 @@ _5% des revenus sont reversés au Club des Montagnards Laurentiens (CML), le clu
 </div>
 
 <style>
+	.text-side {
+		color: #757575;	
+/* 		font-family: Open-sans; */
+	}
 	.download-icon {
 		height: 24px;
 		width: 24px;
