@@ -30,7 +30,7 @@
 		// { t: $t("Mises-à-jour"), href: "./updates" },
 		{ t: $t("Documents"), href: "./documents" },
 		{ t: $t("Contact"), href: "./contact" },
-		{ t: $t("Carte"), href: "./map" },
+// 		{ t: $t("Carte"), href: "./map" },
 	]
 </script>
 
