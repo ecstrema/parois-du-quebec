@@ -11,7 +11,7 @@
 </script>
 
 <HiddenLinks/>
-<Title><Tr t="Le nouveau guide des parois Laurentiennes est à nos portes"/></Title>
+<Title><Tr t="Bientôt Disponible !"/></Title>
 <div class="main-flex">
 	<div class="preview-side">
 		<img class="cover" src="{cover}" alt={$t("La page de couverture du nouveau livre-guide")}/>
@@ -21,21 +21,12 @@
 		</button>
 	</div>
 	<div class="text-side">
-		<Marked t="Le tout nouveau guide des parois des Laurentides est sur le point de voir le jour. Il contiendra:
- - **une douzaine de parois** reconnues des Laurentides, incluant _Attitude Montagne_, _Baldy_, _Belle-Neige_, _Julien Labedan_, _Kanata_, _Lac Boisseau_, _Lac Gervais_, _Lac du Poisson Blanc_, _Montagne Verte_, _Paroi Laurin_ (_Macaza_), et, bonus en Montérégie, _Rigaud_.
+		<Marked t="Le tout premier guide des parois des Laurentides est sur le point de voir le jour. Il contiendra:
+ - **une douzaine de parois** classiques des Laurentides, dont: _Attitude Montagne_, _Baldy_, _Belle-Neige_, _Julien Labedan_, _Kanata_, _Lac Boisseau_, _Lac Gervais_, _Lac du Poisson Blanc_, _Montagne Verte_, _Paroi Laurin_ (_Macaza_), et, bonus en Montérégie, _Rigaud_.
 - **plus de 500 voies** dans tous les niveaux et tous les styles, réparties dans **une quarantaine de secteurs**.
 - des informations historiques, des fiches sur les personalités marquantes, sur les régions alentour, etc.
 			   
-Le livre sera disponible dans les points de vente suivants:
-- **Montréal** : centres d’escalade Allez-Up, Bloc-Shop, Le Mouv’
-- **Laval et Boisbriand** : Le Crux
-- **St-Adolphe** : Attitude Montagne
-- **La Conception** : Montagne d’Argent
-- **Sherbrooke** et *Saint-Sauveur* : Atmosphère
-- **Val-David** : Roc & Ride
-- **Gatineau** : Verti Call
-- **Trois Rivières** : Maikan Aventure
-- **Québec** : centres d’escalade Délire Escalade
+Le livre devrait être disponible dans la plupart des centres d'escalade et boutiques de plein air de la région.
 
 Il sera également possible de le commander directement depuis ce site.
 
