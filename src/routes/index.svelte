@@ -17,7 +17,7 @@
 		<img class="cover" src="{cover}" alt={$t("La page de couverture du nouveau livre-guide")}/>
 		<button class="preview">
 			<img class="download-icon" src="icons/TablerDownload.svg" aria-hidden="true" alt="download icon"/>
-			<Tr t="Voir des extraits"/>
+<!-- 			<Tr t="Voir des extraits"/> -->
 		</button>
 	</div>
 	<div class="text-side">
