@@ -6,7 +6,7 @@
 	import Title from "../components/Title.svelte";
 	import { Tr, t } from "s20n";
 	import HiddenLinks from "../components/HiddenLinks.svelte";
-    import Marked from "../components/Marked.svelte";
+    	import Marked from "../components/Marked.svelte";
 	const cover = "cover.jpg";
 </script>
 
@@ -46,7 +46,7 @@ En attendant la parution, vous pouvez consulter la section [documents](./documen
 		color: #757575;
 		line-height: 24px;
 	}
-	.text-side a {
+	.text-side :global(a) {
 		color: inherit;
 	}
 	.download-icon {
@@ -65,7 +65,7 @@ En attendant la parution, vous pouvez consulter la section [documents](./documen
 		align-items: center;
 		margin-right: 20px;
 	}
-	.preview {
+/* 	.preview {
 		text-align: center;
 		width: 70%;
 		border-radius: 18px;
@@ -86,14 +86,14 @@ En attendant la parution, vous pouvez consulter la section [documents](./documen
 
 		/* Needed for an unknown and very strange reason... */
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', serif
-	}
-	.preview:hover, .preview:focus {
+	} */
+/* 	.preview:hover, .preview:focus {
 		box-shadow: 0 0 6px rgb(35 173 255);
 	}
 	.preview:focus {
 		font-weight: 600;
 		outline: none;
-	}
+	} */
 	.cover {
 		max-width: 100%;
 		box-shadow: 0 8px 24px rgba(149,157,165,0.6);
@@ -109,14 +109,14 @@ En attendant la parution, vous pouvez consulter la section [documents](./documen
 		.preview-side {
 			width: 100%;
 		}
-		.preview {
+/* 		.preview {
 			width: 85%;
-		}
+		} */
 	}
-
+/* 
 	@media only screen and (max-width: 400px) {
 		.preview {
 			width: 100%;
 		}
-	}
+	} */
 </style>
