@@ -15,10 +15,10 @@
 <div class="main-flex">
 	<div class="preview-side">
 		<img class="cover" src="{cover}" alt={$t("La page de couverture du nouveau livre-guide")}/>
-		<button class="preview">
+<!-- 		<button class="preview">
 			<img class="download-icon" src="icons/TablerDownload.svg" aria-hidden="true" alt="download icon"/>
-<!-- 			<Tr t="Voir des extraits"/> -->
-		</button>
+			<Tr t="Voir des extraits"/>
+		</button> -->
 	</div>
 	<div class="text-side">
 		<Marked t="Le tout premier guide des parois des Laurentides est sur le point de voir le jour. Il contiendra:
