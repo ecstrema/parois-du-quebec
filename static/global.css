@@ -1,6 +1,7 @@
 body {
 	padding: 0;
 	margin: 0;
+	line-height: 24px;
 }
 :root {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
