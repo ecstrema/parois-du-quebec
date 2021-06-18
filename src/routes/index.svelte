@@ -84,7 +84,7 @@ En attendant la parution, vous pouvez consulter la section [documents](./documen
 		align-items: center;
 		justify-content: center;
 
-		/* Needed for an unknown and very strange reason... */
+		/* Needed for an unknown and very strange reason... 
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', serif
 	} */
 /* 	.preview:hover, .preview:focus {
