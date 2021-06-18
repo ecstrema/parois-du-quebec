@@ -103,8 +103,9 @@
 	.title {
 		color: rgb(244, 188, 81);
 		font-size: 50px;
-		text-transform: capitalize;
+		text-transform: uppercase;
 		text-decoration: none;
+		font-weight: bold;
 	}
 
 	@media only screen and (max-width: 1100px) {
