@@ -21,7 +21,25 @@
 		</button>
 	</div>
 	<div class="text-side">
-		<Marked t="Un tout nouveau guide contenant les parois de _Julien Labedan_, _Lac Boisseau_..."></Marked>
+		<Marked t="Le tout nouveau guide des parois Laurentiennes est sur le point de voir le jour. Il contiendra:
+ - *une douzaine de parois* reconnues des Laurentides, incluant _Attitude Montagne_, _Baldy_, _Belle-Neige_, _Julien Labedan_, _Kanata_, _Lac Boisseau_, _Lac Gervais_, _Lac du Poisson Blanc_, _Montagne Verte_, _Paroi Laurin_ (_Macaza_), et, en bonus en Montérégie, _Rigaud_.
+- *plus de 500 voies* dans tous les niveaux et tous les styles, réparties dans *une quarantaine de secteurs*.
+- des informations historiques, des fiches sur les personalités marquantes, sur les régions alentour, etc.
+			   
+Le livre sera disponible dans les points de vente suivants:
+– *Montréal* : centres d’escalade Allez-Up, Bloc-Shop, Le Mouv’
+– *Laval et Boisbriand* : Le Crux
+– *St-Adolphe* : Attitude Montagne
+– *La Conception* : Montagne d’Argent
+– *Sherbrooke* et *Saint-Sauveur* : Atmosphère
+– *Val-David* : Roc & Ride
+– *Gatineau* : Verti Call
+– *Trois Rivières* : Maikan Aventure
+– *Québec* : centres d’escalade Délire Escalade
+
+Il sera également possible de le commander directement depuis ce site.
+
+5% des revenus sont reversés au Club des Montagnards Laurentiens (CML), le club régional généralement en charge des développements et entretiens des sites d’escalades des Laurentides."></Marked>
 	</div>
 </div>
 
