@@ -26,7 +26,7 @@
 	$: switchLanguage = $t("English");
 
 	$: pages = [
-		{ t: $t("Acceuil"), href: "." },
+		{ t: $t("Accueil"), href: "." },
 		// { t: $t("Mises-à-jour"), href: "./updates" },
 		{ t: $t("Documents"), href: "./documents" },
 		{ t: $t("Contact"), href: "./contact" },
