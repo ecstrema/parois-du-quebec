@@ -3,11 +3,9 @@
 </svelte:head>
 
 <script lang="ts">
-	import Title from "../components/Title.svelte";
-	import HomeFr from "../components/HomeFr.svelte.md";
-	import HomeEn from "../components/HomeEn.svelte.md";
+	import { Title, HomeFr, HomeEn }from "$components";
 
-	import { t, locale } from "../lib/i18n";
+	import { t, locale } from "$i18n";
 
 	const cover = "cover.jpg";
 </script>

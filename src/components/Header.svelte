@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-    import { t, locale } from '$lib/i18n';
+    import { t, locale } from '$i18n';
 
 	// Greater than 900, so that by default it shows the menu and not the hamburger.
 	let windowWidth = 1000;

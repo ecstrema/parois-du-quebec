@@ -1,6 +1,7 @@
 import preprocess from 'svelte-preprocess';
 import adapt from '@sveltejs/adapter-static';
 import { markdown } from 'svelte-preprocess-markdown';
+import path from 'path';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -15,7 +16,16 @@ const config = {
 
 	kit: {
 		adapter: adapt(),
-		appDir: 'internal'
+		appDir: 'internal',
+
+		vite: {
+			resolve: {
+				alias: {
+					$components: path.resolve('./src/components'),
+					$i18n: path.resolve('./src/lib/i18n'),
+				}
+			}
+		}
 	}
 };
 

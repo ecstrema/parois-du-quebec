@@ -3,8 +3,8 @@
 </svelte:head>
 
 <script lang="ts">
-    import Title from "../components/Title.svelte";
-    import { t } from "../lib/i18n";
+    import Title from "$components/Title.svelte";
+    import { t } from "$i18n";
 
     const oldGuidebooks = [
         {name: "Baldy 2016", path: "baldy_2016.pdf"},
@@ -101,10 +101,10 @@
 		.download-button {
             justify-content: center;
 		}
-		.responsive-center {
-			text-align: center;
-		}
 	}
+    .responsive-center {
+        text-align: center;
+    }
 
     .download-icon {
         height: 24px;

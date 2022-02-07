@@ -3,10 +3,8 @@
 </svelte:head>
 
 <script lang="ts">
-    import Title from "../components/Title.svelte";
-    import UpdatesEn from "../components/UpdatesEn.svelte.md";
-    import UpdatesFr from "../components/UpdatesFr.svelte.md";
-    import { t, locale } from "../lib/i18n";
+    import { Title, UpdatesEn, UpdatesFr } from "$components";
+    import { t, locale } from "$i18n";
 </script>
 
 <Title>{$t("Mises-a-jour")}</Title>

@@ -3,8 +3,8 @@
 </svelte:head>
 
 <script lang="ts">
-	import Title from "../components/Title.svelte";
-	import { t } from "../lib/i18n";
+	import { Title } from "$components";
+	import { t } from "$i18n";
 
 	// const emailAddress = "info@escaladelaurentides.ca";
 	const emailAddress = "info@escaladeweir.ca";
