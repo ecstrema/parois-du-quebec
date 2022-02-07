@@ -1,7 +1,11 @@
 {
     "i18n-ally.localesPaths": [
-        "static/locales"
+        "src/translations"
     ],
-    "i18n-ally.keystyle": "nested",
-    "i18n-ally.sourceLanguage": "fr"
+    "i18n-ally.sourceLanguage": "fr",
+    "i18n-ally.keystyle": "flat",
+    "i18n-ally.disablePathParsing": true,
+    "cSpell.words": [
+        "messageformat"
+    ]
 }

@@ -4,22 +4,22 @@
 
 <script lang="ts">
 	import Title from "../components/Title.svelte";
-	import { Tr, t } from "s20n";
+	import { t } from "../lib/i18n";
 
 	// const emailAddress = "info@escaladelaurentides.ca";
 	const emailAddress = "info@escaladeweir.ca";
 </script>
 
-<Title><Tr t="Contact"/></Title>
+<Title>{$t("Contact")}</Title>
 <div class="center">
 	<p class="description">
-		<Tr t="Merci de nous faire part d’informations de mise à jour qui peuvent compléter/corriger le guide. Fournissez tous les détails possibles (secteur, voie, nom, date, etc.)."/>
+		{$t("MerciInfo")}
 	</p>
-	<a class="mailto" target="_blank" rel="noopener noreferrer" href="mailto:{emailAddress}?subject={$t("Infos sur le guide des Laurentides")}">
-		<Tr t="Contacter les auteurs par courriel"/>
+	<a class="mailto" target="_blank" rel="noopener noreferrer" href="mailto:{emailAddress}?subject={$t("infoGuide")}">
+		{$t("ContacterAuteurs")}
 	</a>
 	<div class="note">
-		<Tr t="Si ce lien ne fonctionne pas, vous pouvez envoyer un courriel à l'adresse"/>
+		{$t("LienEmailBrise")}
 		<strong> {emailAddress}</strong>.
 	</div>
 </div>

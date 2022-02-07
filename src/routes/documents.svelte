@@ -4,7 +4,7 @@
 
 <script lang="ts">
     import Title from "../components/Title.svelte";
-    import { Tr, t } from "s20n";
+    import { t } from "../lib/i18n";
 
     const oldGuidebooks = [
         {name: "Baldy 2016", path: "baldy_2016.pdf"},
@@ -28,22 +28,23 @@
     ]
 </script>
 
-<Title><Tr t="Documents"/></Title>
+<Title>{$t("Documents")}</Title>
 
-<h2><Tr t="Anciens topos – livres guides"/>:</h2>
-<div class="responsive-center">
-    {#each oldGuidebooks as og}
-        <a class="download-button" href="guidebooks/existing/{og.path}" download>
-            <img class="download-icon" src="icons/TablerDownload.svg" aria-hidden="true" alt="download icon"/>
-            {og.name}
-        </a>
-        <br/>
-    {/each}
-</div>
 
-<div>
-    <h2><Tr t="Autres resources"/>:</h2>
+<div class="responsive-layout">
     <div class="responsive-center">
+        <h2>{$t("Anciens")}:</h2>
+        {#each oldGuidebooks as og}
+            <a class="download-button" href="guidebooks/existing/{og.path}" download>
+                <img class="download-icon" src="icons/TablerDownload.svg" aria-hidden="true" alt="download icon"/>
+                {og.name}
+            </a>
+            <br/>
+        {/each}
+    </div>
+
+    <div class="responsive-center">
+        <h2>{$t("Autres resources")}:</h2>
         {#each otherResources as or}
             <a class="download-button" href={or.link} target="_blank" rel="noopener noreferrer">
                 <img class="download-icon" src="icons/RiExternalLinkLine.svg" aria-hidden="true" alt="external-link icon"/>
@@ -52,21 +53,31 @@
             <br/>
         {/each}
     </div>
-</div>
 
 
-<h2><Tr t="Et Plus…"/>:</h2>
-<div class="responsive-center">
-    {#each otherProjects as op}
-        <a class="download-button" href="guidebooks/ours/{op.path}" download>
-            <img class="download-icon" src="icons/TablerDownload.svg" aria-hidden="true" alt="download icon"/>
-            {op.name}
-        </a>
-        <br/>
-    {/each}
+    <div class="responsive-center">
+        <h2>{$t("Et Plus")}:</h2>
+        {#each otherProjects as op}
+            <a class="download-button" href="guidebooks/ours/{op.path}" download>
+                <img class="download-icon" src="icons/TablerDownload.svg" aria-hidden="true" alt="download icon"/>
+                {op.name}
+            </a>
+            <br/>
+        {/each}
+    </div>
 </div>
 
 <style>
+    @media screen and (min-width: 1000px) {
+        .responsive-layout {
+            display: flex;
+        }
+
+        .responsive-center {
+            flex: 1;
+        }
+    }
+
     .download-button{
         padding: 12px;
         text-decoration: none;

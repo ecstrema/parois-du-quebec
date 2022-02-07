@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { Tr, t, locale } from 's20n';
+    import { t, locale } from '$lib/i18n';
 
 	// Greater than 900, so that by default it shows the menu and not the hamburger.
-	let windowWidth: number = (process as any).browser  ? window.innerWidth : 1000;
+	let windowWidth = 1000;
 	let showMenu: boolean = false;
 	const showMenuThreshold: number = 900;
 
@@ -15,30 +15,28 @@
 	});
 
 	function toggleLanguage() {
-		if ($locale === "fr") {
-			$locale = "en";
-		}
-		else {
-			$locale = "fr";
-		}
+		if ($locale === "en")
+			$locale = "fr"
+		else
+			$locale = "en"
 	}
 
 	$: switchLanguage = $t("English");
 
 	$: pages = [
-		{ t: $t("Accueil"), href: "." },
-		// { t: $t("Mises-à-jour"), href: "./updates" },
-		{ t: $t("Documents"), href: "./documents" },
-		{ t: $t("Contact"), href: "./contact" },
-// 		{ t: $t("Carte"), href: "./map" },
+		{ t: $t("Accueil"), href: "/" },
+		// { t: $t("MisesAJour"), href: "/updates" },
+		{ t: $t("Documents"), href: "/documents" },
+		{ t: $t("Contact"), href: "/contact" },
+		// { t: $t("Carte"), href: "/map" },
 	]
 </script>
 
 <header class="header">
 	<div class="centered-layout">
-		<div class="navbar">
-			<a class="title" href=".">
-				<Tr t="Escalade Laurentides"/>
+		<nav class="navbar">
+			<a class="title" href="/">
+				{$t("Escalade Laurentides")}
 			</a>
 			<div class="spacer"></div>
 			{#if windowWidth && windowWidth > showMenuThreshold}
@@ -53,7 +51,7 @@
 					<path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
 				</svg>
 			{/if}
-		</div>
+		</nav>
 		{#if showMenu && windowWidth < showMenuThreshold}
 			<div class="menu">
 				{#each pages as p}

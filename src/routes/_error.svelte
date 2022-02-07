@@ -1,11 +1,11 @@
 <script lang="ts">
-    import { Tr } from "s20n";
+    import { t } from "../lib/i18n";
     export let status: string;
 </script>
 
 <h1>{status}</h1>
-<h2><Tr t="Oups. Une erreur s'est produite..."/></h2>
-<h2><a href="."><Tr t="Retour à la page d'acceuil"/></a></h2>
+<h2>{$t("erreurSEstProduite")}</h2>
+<h2><a href=".">{$t("retourAcceuil")}</a></h2>
 
 <style>
     h1, h2, a {

@@ -1,23 +1,8 @@
 <script lang="ts">
-	import Header from "../components/Header.svelte";
-	import { registerLoader, initS20n } from "s20n";
-	import JSON5 from "json5";
-
-	registerLoader({
-		matcher: ".json5",
-		handle: async function handler(path) {
-			return fetch(path).then(r => r.text()).then(t => JSON5.parse(t));
-		}
-	})
-
-
-	initS20n([
-		{ path: "./locales/en.json5", name: "en"},
-	], {
-		readFromNavigator: false,
-		sourceLocale: "fr",
-		})
+    import Header from "../components/Header.svelte";
+    import Footer from "../components/Footer.svelte";
 </script>
+
 
 <Header/>
 <div class="centered-layout" style="margin-bottom: 70px;">
@@ -25,6 +10,8 @@
 		<slot></slot>
 	</main>
 </div>
+
+<Footer/>
 
 <style>
 	main {
