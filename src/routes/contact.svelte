@@ -1,21 +1,33 @@
-<svelte:head>
-	<title>{$t("Contact")}</title>
-</svelte:head>
-
 <script lang="ts">
 	import { Title } from "$components";
 	import { t } from "$i18n";
 
+	import SvelteSeo from "svelte-seo";
+
 	// const emailAddress = "info@escaladelaurentides.ca";
 	const emailAddress = "info@escaladeweir.ca";
 </script>
+
+<svelte:head>
+	<title>{$t("Contact") + " | " + $t("Escalade Laurentides")}</title>
+</svelte:head>
+
+<SvelteSeo
+    title="Contact"
+    description="Contactez les auteurs"
+/>
 
 <Title>{$t("Contact")}</Title>
 <div class="center">
 	<p class="description">
 		{$t("MerciInfo")}
 	</p>
-	<a class="mailto" target="_blank" rel="noopener noreferrer" href="mailto:{emailAddress}?subject={$t("infoGuide")}">
+	<a
+		class="mailto"
+		target="_blank"
+		rel="noopener noreferrer"
+		href="mailto:{emailAddress}?subject={$t('infoGuide')}"
+	>
 		{$t("ContacterAuteurs")}
 	</a>
 	<div class="note">
@@ -40,14 +52,14 @@
 		font-size: 12px;
 	}
 
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
-    a:focus {
-        outline: none;
-    }
-    .mailto {
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+	a:focus {
+		outline: none;
+	}
+	.mailto {
 		display: inline-block;
 		text-align: center;
 		width: 60%;
@@ -62,7 +74,8 @@
 		box-sizing: border-box;
 		cursor: pointer;
 	}
-	.mailto:hover, .mailto:focus {
+	.mailto:hover,
+	.mailto:focus {
 		box-shadow: 0 0 6px rgb(35 173 255);
 	}
 	.mailto:focus {

@@ -1,5 +1,4 @@
 {
-  "toggle": "English",
   "English": "English",
   "Accueil": "Accueil",
   "MisesAJour": "Mises-à-jour",
@@ -9,15 +8,16 @@
   "Escalade Laurentides": "Escalade Laurentides",
   "erreurSEstProduite": "Oups. Une erreur s'est produite...",
   "retourAcceuil": "Retour à la page d'acceuil",
-  "bientot": "Bientôt Disponible !",
+  "Bientot": "Bientôt Disponible !",
   "couverture": "La page de couverture du nouveau livre-guide",
   "voirExtraits": "Voir des extraits",
   "Anciens": "Anciens topos – livres guides",
   "Autres resources": "Autres resources",
-  "Et Plus": "Et Plus…",
+  "Et plus": "Et plus…",
   "MerciInfo": "Merci de nous faire part d’informations de mise à jour qui peuvent compléter/corriger le guide. Fournissez tous les détails possibles (secteur, voie, nom, date, etc.).",
   "ContacterAuteurs": "Contacter les auteurs par courriel",
   "LienEmailBrise": "Si ce lien ne fonctionne pas, vous pouvez envoyer un courriel à l'adresse",
   "infoGuide": "Infos sur le guide des Laurentides",
-  "Mises-a-jour": "Mises-à-jour"
+  "Mises-a-jour": "Mises-à-jour",
+  "Erreur 404": "Erreur 404"
 }

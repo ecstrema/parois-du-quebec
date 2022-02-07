@@ -4,7 +4,7 @@ publish(
     'build',
     {
         branch: 'gh-pages',
-        repo: 'https://github.com/Marr11317/sveltekit-i18n-template.git',
+        repo: 'https://github.com/Marr11317/escalade-laurentides.git',
         user: {
             name: 'Remi Marche',
             email: 'remimarche@gmail.com',

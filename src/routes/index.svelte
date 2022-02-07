@@ -1,29 +1,35 @@
+<script lang="ts">
+	import { Title, HomeFr, HomeEn } from "$components";
+	import { t, locale } from "$i18n";
+
+	import SvelteSeo from "svelte-seo";
+
+	const cover = "/cover.jpg";
+</script>
+
 <svelte:head>
 	<title>{$t("Escalade Laurentides")}</title>
 </svelte:head>
 
-<script lang="ts">
-	import { Title, HomeFr, HomeEn }from "$components";
+<SvelteSeo
+    title="Escalade Laurentides"
+    description="Le nouveau guide d'escalade des Laurentides"
+/>
 
-	import { t, locale } from "$i18n";
-
-	const cover = "cover.jpg";
-</script>
-
-<Title>{$t("bientot")}</Title>
+<Title>{$t("Bientot")}</Title>
 <div class="main-flex">
 	<div class="preview-side">
-		<img class="cover" src="{cover}" alt={$t("couverture")}/>
-<!-- 		<button class="preview">
-			<img class="download-icon" src="icons/TablerDownload.svg" aria-hidden="true" alt="download icon"/>
+		<img class="cover" src={cover} alt={$t("couverture")} />
+		<!-- 		<button class="preview">
+			<img class="download-icon" src="/icons/TablerDownload.svg" aria-hidden="true" alt="download icon"/>
 			{$t("voirExtraits")}
 		</button> -->
 	</div>
 	<div class="text-side">
 		{#if $locale == "fr"}
-			<HomeFr/>
+			<HomeFr />
 		{:else}
-			<HomeEn/>
+			<HomeEn />
 		{/if}
 	</div>
 </div>
@@ -52,7 +58,7 @@
 		align-items: center;
 		margin-right: 20px;
 	}
-/* 	.preview {
+	/* 	.preview {
 		text-align: center;
 		width: 70%;
 		border-radius: 18px;
@@ -74,7 +80,7 @@
 		/* Needed for an unknown and very strange reason...
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', serif
 	} */
-/* 	.preview:hover, .preview:focus {
+	/* 	.preview:hover, .preview:focus {
 		box-shadow: 0 0 6px rgb(35 173 255);
 	}
 	.preview:focus {
@@ -83,7 +89,7 @@
 	} */
 	.cover {
 		max-width: 100%;
-		box-shadow: 0 8px 24px rgba(149,157,165,0.6);
+		box-shadow: 0 8px 24px rgba(149, 157, 165, 0.6);
 	}
 	.main-flex {
 		display: flex;
@@ -96,11 +102,11 @@
 		.preview-side {
 			width: 100%;
 		}
-/* 		.preview {
+		/* 		.preview {
 			width: 85%;
 		} */
 	}
-/*
+	/*
 	@media only screen and (max-width: 400px) {
 		.preview {
 			width: 100%;

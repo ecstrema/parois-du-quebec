@@ -1,6 +1,6 @@
 Le tout **premier guide des parois des Laurentides** est sur le point de voir le jour. Il contiendra:
 
-- **une douzaine de parois** classiques des Laurentides, dont:
+- **une douzaine des parois** classiques des Laurentides, dont:
   - _Attitude Montagne_
   - _Baldy_
   - _Belle-Neige_

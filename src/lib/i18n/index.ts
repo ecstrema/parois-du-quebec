@@ -15,9 +15,9 @@ export const locale: Writable<Locale | typeof sourceLocale> = writable(sourceLoc
  *
  * @example
  * ```svelte
- * <p>{$t("Hello World")}</p>
- * <p>{$t("stringWithInterpolation", {n: 10})}
- * <p>{$t("stringWithMultipleInterpolations", {count: 0, gender: "female"})}
+ * <p>{$t ("Hello World")}</p>
+ * <p>{$t ("stringWithInterpolation", {n: 10})}
+ * <p>{$t ("stringWithMultipleInterpolations", {count: 0, gender: "female"})}
  * ```
  */
 export const t = derived(locale, ($locale: Locale) => {
