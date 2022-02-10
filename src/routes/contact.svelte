@@ -48,8 +48,8 @@
 	}
 
 	.note {
-		color: #999;
-		font-size: 12px;
+		color: rgb(126, 126, 126);
+		font-size: 14px;
 	}
 
 	a {

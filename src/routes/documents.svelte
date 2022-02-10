@@ -13,7 +13,7 @@
         { name: "Poisson Blanc 2020", path: "poisson-blanc_2020.pdf" },
     ];
 
-    const otherResources = [
+    $: otherResources = [
         { name: $t("Weir"), link: "https://escaladeweir.ca" },
         {
             name: "Mountain Project",
@@ -48,7 +48,7 @@
 
 <div class="responsive-layout">
     <div class="responsive-center">
-        <h2>{$t("Anciens")}:</h2>
+        <h2>{$t("Anciens")}</h2>
         {#each oldGuidebooks as og}
             <a
                 class="download-button"
@@ -59,7 +59,7 @@
                     class="download-icon"
                     src="/icons/TablerDownload.svg"
                     aria-hidden="true"
-                    alt="download icon"
+                    alt="download"
                 />
                 {og.name}
             </a>
@@ -68,7 +68,7 @@
     </div>
 
     <div class="responsive-center">
-        <h2>{$t("Autres resources")}:</h2>
+        <h2>{$t("Autres resources")}</h2>
         {#each otherResources as or}
             <a
                 class="download-button"
@@ -89,7 +89,7 @@
     </div>
 
     <div class="responsive-center">
-        <h2>{$t("Et plus")}:</h2>
+        <h2>{$t("Et plus")}</h2>
         {#each otherProjects as op}
             <a
                 class="download-button"
@@ -100,7 +100,7 @@
                     class="download-icon"
                     src="/icons/TablerDownload.svg"
                     aria-hidden="true"
-                    alt="download icon"
+                    alt="download"
                 />
                 {op.name}
             </a>

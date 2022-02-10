@@ -1,5 +1,5 @@
 <footer>
-    <p class="copyright">Marche & Cornellier © {new Date().getFullYear()}</p>
+    <p class="copyright">Marche & Cornellier © 2021 – {new Date().getFullYear()}</p>
 </footer>
 
 <style>

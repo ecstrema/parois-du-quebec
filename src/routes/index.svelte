@@ -21,7 +21,7 @@
 	<div class="preview-side">
 		<img class="cover" src={cover} alt={$t("couverture")} />
 		<!-- 		<button class="preview">
-			<img class="download-icon" src="/icons/TablerDownload.svg" aria-hidden="true" alt="download icon"/>
+			<img class="download-icon" src="/icons/TablerDownload.svg" aria-hidden="true" alt="download"/>
 			{$t("voirExtraits")}
 		</button> -->
 	</div>

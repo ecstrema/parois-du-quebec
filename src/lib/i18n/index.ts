@@ -47,6 +47,7 @@ export const t = derived(locale, ($locale: Locale) => {
             }
             return translation;
         }
+        // This line prints an error in typescript if there are no translations needing arguments.
         return ((targetTranslations as LocaleType)[translation])(obj) as string;
     }
 });
