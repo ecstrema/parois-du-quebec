@@ -30,6 +30,10 @@
 		{ t: $t("Contact"), href: "/contact" },
 		// { t: $t("Carte"), href: "/map" },
 	]
+
+	function toggleMenu() {
+		showMenu = !showMenu;
+	}
 </script>
 
 <header class="header">
@@ -47,7 +51,7 @@
 				<p tabindex="0" class="page underline" on:keypress|preventDefault={toggleLanguage} on:click={toggleLanguage}>{switchLanguage}</p>
 			</nav>
 			{:else if windowWidth}
-				<svg height="32px" viewBox="0 0 32 32" width="32px" class="hamburger" on:click={() => showMenu = !showMenu}>
+				<svg height="32px" viewBox="0 0 32 32" width="32px" class="hamburger" tabindex="0" on:keypress|preventDefault={toggleMenu} on:click={toggleMenu}>
 					<path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
 				</svg>
 			{/if}
@@ -87,6 +91,10 @@
 		top: 25px;
 		cursor: pointer;
 	}
+	/* .hamburger:focus {
+		box-shadow: 0 0 6px rgb(35 173 255);
+		outline: none;
+	} */
 
 	.navbar {
 		display: flex;
