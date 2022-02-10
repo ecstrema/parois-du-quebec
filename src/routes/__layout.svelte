@@ -1,6 +1,4 @@
 <script lang="ts">
-	import "./global.css";
-
 	import SvelteSeo from "svelte-seo";
 
 	import { Header, Footer, Lang } from "$components";
@@ -46,6 +44,7 @@
 />
 
 <Header />
+
 <div class="centered-layout" style="margin-bottom: 70px;">
 	<main>
 		<slot />
