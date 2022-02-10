@@ -18,8 +18,8 @@
 	jsonLd={{
 		"@context": "https://schema.org",
 		"@type": "BreadcrumbList",
-		url: "http://www.escaladelaurentides.ca",
-		logo: "http://www.escaladelaurentides.ca/cover.jpg",
+		url: "https://www.escaladelaurentides.ca",
+		logo: "https://www.escaladelaurentides.ca/cover.jpg",
 		itemListElement: [
 			{
 				"@type": "ListItem",

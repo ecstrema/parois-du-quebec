@@ -3,7 +3,6 @@
     import { t } from "$i18n";
 
     import SvelteSeo from "svelte-seo";
-import { derived } from "svelte/store";
 
     const oldGuidebooks = [
         { name: "Baldy 2016", path: "baldy_2016.pdf" },
@@ -15,7 +14,7 @@ import { derived } from "svelte/store";
     ];
 
     const otherResources = [
-        { name: "Livre-Guide de Weir", link: "https://escaladeweir.ca" },
+        { name: $t("Weir"), link: "https://escaladeweir.ca" },
         {
             name: "Mountain Project",
             link: "https://www.mountainproject.com/area/107336285/laurentians",
