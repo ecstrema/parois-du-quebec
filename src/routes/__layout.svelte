@@ -6,7 +6,7 @@
 	import { Header, Footer, Lang } from "$components";
 </script>
 
-<Lang/>
+<Lang />
 
 <SvelteSeo
 	keywords="Laurentides, escalade, livre-guide, topo, climbing, Laurentians, guidebook, pages, book, livre, reference, montagne, français, anglais, english, french, Quebec, Qc, Canada, Ca"

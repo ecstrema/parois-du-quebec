@@ -3,16 +3,15 @@
     import { t, locale } from "$i18n";
 
     import SvelteSeo from "svelte-seo";
+
+    $: pageTitle = `${$t("Mises-a-jour")} • ${$t("Escalade Laurentides")}`;
 </script>
 
 <svelte:head>
-    <title>{$t("Mises-a-jour")}</title>
+    <title>{pageTitle}</title>
 </svelte:head>
 
-<SvelteSeo
-    title="Mises-à-jour"
-    description="Les mises-à-jour du guide des Laurentides."
-/>
+<SvelteSeo description="Les mises-à-jour du guide des Laurentides." />
 
 <Title>{$t("Mises-a-jour")}</Title>
 <div style="text-align: center;">

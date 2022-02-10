@@ -6,16 +6,15 @@
 
 	// const emailAddress = "info@escaladelaurentides.ca";
 	const emailAddress = "info@escaladeweir.ca";
+
+	$: pageTitle = `${$t("Contact")} • ${$t("Escalade Laurentides")}`;
 </script>
 
 <svelte:head>
-	<title>{$t("Contact") + " | " + $t("Escalade Laurentides")}</title>
+	<title>{pageTitle}</title>
 </svelte:head>
 
-<SvelteSeo
-    title="Contact"
-    description="Contactez les auteurs"
-/>
+<SvelteSeo description="Contactez les auteurs" />
 
 <Title>{$t("Contact")}</Title>
 <div class="center">

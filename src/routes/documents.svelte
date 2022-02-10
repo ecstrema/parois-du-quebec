@@ -32,15 +32,14 @@
         { name: "St. Côme Centre-Ville", path: "st-come-centre-ville.pdf" },
     ];
 
-    $: pagetitle =  $t("Documents") + " | " + $t("Escalade Laurentides");
+    $: pageTitle = `${$t("Documents")} • ${$t("Escalade Laurentides")}`;
 </script>
 
 <svelte:head>
-    <title>{pagetitle}</title>
+    <title>{pageTitle}</title>
 </svelte:head>
 
 <SvelteSeo
-    title="Documents"
     description="Documents accompagnant le nouveau guide d'escalade des Laurentides."
 />
 

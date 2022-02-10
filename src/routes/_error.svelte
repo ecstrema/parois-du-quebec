@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>{$t("Erreur 404") + " | " + $t("Escalade Laurentides")}</title>
+    <title>{$t("Erreur 404") + " | " + $t("Escalade Laurentides")}</title>
 </svelte:head>
 
 <h1>{status}</h1>

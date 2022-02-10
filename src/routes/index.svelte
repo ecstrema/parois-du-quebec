@@ -11,10 +11,7 @@
 	<title>{$t("Escalade Laurentides")}</title>
 </svelte:head>
 
-<SvelteSeo
-    title="Escalade Laurentides"
-    description="Le nouveau guide d'escalade des Laurentides"
-/>
+<SvelteSeo description="Le nouveau guide d'escalade des Laurentides" />
 
 <Title>{$t("Bientot")}</Title>
 <div class="main-flex">
