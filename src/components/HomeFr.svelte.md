@@ -6,10 +6,12 @@ Le tout **premier guide des parois des Laurentides** est sur le point de voir le
   - _Belle-Neige_
   - _Julien Labedan_
   - _Kanata_
+  - _Kanata Blocs_
   - _Lac Boisseau_
   - _Lac Gervais_
   - _Lac du Poisson Blanc_
   - _Montagne Verte_
+  - _Chutes Saint-Philippe_
   - _Paroi Laurin_ (_Macaza_)
   - _Rigaud_ (bonus en Montérégie).
 - **plus de 500 voies** dans tous les niveaux et tous les styles, réparties dans **une quarantaine de secteurs**.
