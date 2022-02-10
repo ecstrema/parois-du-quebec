@@ -39,13 +39,13 @@
 	.text-side :global(a) {
 		color: inherit;
 	}
-	.download-icon {
+	/* .download-icon {
 		height: 24px;
 		width: 24px;
-		/* hack to get a white image */
+		/* hack to get a white image
 		filter: invert(1);
 		margin-right: 10px;
-	}
+	} */
 	.preview-side {
 		display: flex;
 		flex-direction: column;
