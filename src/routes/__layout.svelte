@@ -7,13 +7,23 @@
 <Lang />
 
 <SvelteSeo
-	keywords="Laurentides, escalade, livre-guide, topo, climbing, Laurentians, guidebook, pages, book, livre, reference, montagne, français, anglais, english, french, Quebec, Qc, Canada, Ca"
+	keywords="Laurentides, escalade, livre-guide, topo, climbing, Laurentians, guidebook, pages, book, livre, reference, montagne, français, anglais, english, french, Quebec, Qc, Canada, Ca, Kanata, Blocs, Bouldering, boulders, lac boisseau, boisseau, gervais, lac gervais, Julien Labedan, Chutes St-Philippe, Paroi Laurin, "
 	twitter={{
 		card: "summary_large_image",
 		title: "Escalade Laurentides",
 		description: "Guide d'escalade des Laurentides verticales",
 		image: "https://escaladelaurentides.ca/cover.jpg",
 		imageAlt: "Page de couverture du livre d'escalade des Laurentides",
+	}}
+	openGraph={{
+		title: "Escalade Laurentides",
+		description: "Guide d'escalade des Laurentides verticales",
+		url: "https://escaladelaurentides.ca/",
+		type: "website",
+		images: [{
+			url: "https://escaladelaurentides.ca/cover.jpg",
+			alt: "Page de couverture du livre d'escalade des Laurentides",
+		}],
 	}}
 	jsonLd={{
 		"@context": "https://schema.org",
