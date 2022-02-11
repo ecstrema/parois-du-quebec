@@ -85,6 +85,8 @@
 		main {
 			padding-left: 5px;
 			padding-right: 5px;
+
+			font-size: 15px;
 		}
 	}
 </style>

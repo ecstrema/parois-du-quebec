@@ -3,6 +3,7 @@
 	import { t, locale } from "$i18n";
 
 	import SvelteSeo from "svelte-seo";
+	import Image from "svimg";
 </script>
 
 <svelte:head>
@@ -18,10 +19,8 @@
 			<source media="(min-width:650px)" srcset="img_pink_flowers.jpg" />
 			<img class="cover" src="/cover.jpg" alt={$t("couverture")} />
 		</picture> -->
-		<picture>
-			<source srcset="cover.webp" />
-			<img class="cover" src="/cover.jpg" alt={$t("couverture")} />
-		</picture>
+
+		<Image class="cover" src="/cover.jpg" alt={$t("couverture")} />
 		<!-- 		<button class="preview">
 			<img class="download-icon" src="/icons/TablerDownload.svg" aria-hidden="true" alt="download"/>
 			{$t("voirExtraits")}
@@ -89,7 +88,8 @@
 		font-weight: 600;
 		outline: none;
 	} */
-	.cover {
+	:global(.cover) {
+		width: 100%;
 		max-width: 100%;
 		box-shadow: 0 8px 24px rgba(149, 157, 165, 0.6);
 	}

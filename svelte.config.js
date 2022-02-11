@@ -2,6 +2,7 @@ import preprocess from 'svelte-preprocess';
 import adapt from '@sveltejs/adapter-static';
 import { markdown } from 'svelte-preprocess-markdown';
 import path from 'path';
+import imagePreprocessor from 'svimg';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -9,7 +10,13 @@ const config = {
 	// for more information about preprocessors
 	preprocess: [
 		preprocess(),
-		markdown()
+		markdown(),
+		imagePreprocessor({
+			inputDir: 'static',
+			outputDir: 'static/generated',
+			webp: true,
+			avif: true
+		}),
 	],
 
 	extensions: ['.svelte', '.md'],
