@@ -3,8 +3,6 @@
 	import { t, locale } from "$i18n";
 
 	import SvelteSeo from "svelte-seo";
-
-	const cover = "/cover.jpg";
 </script>
 
 <svelte:head>
@@ -16,7 +14,14 @@
 <Title>{$t("Bientot")}</Title>
 <div class="main-flex">
 	<div class="preview-side">
-		<img class="cover" src={cover} alt={$t("couverture")} />
+		<!-- <picture>
+			<source media="(min-width:650px)" srcset="img_pink_flowers.jpg" />
+			<img class="cover" src="/cover.jpg" alt={$t("couverture")} />
+		</picture> -->
+		<picture>
+			<source srcset="cover.webp" />
+			<img class="cover" src="/cover.jpg" alt={$t("couverture")} />
+		</picture>
 		<!-- 		<button class="preview">
 			<img class="download-icon" src="/icons/TablerDownload.svg" aria-hidden="true" alt="download"/>
 			{$t("voirExtraits")}
