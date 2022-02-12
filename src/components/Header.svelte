@@ -46,9 +46,9 @@
 			{#if windowWidth && windowWidth > showMenuThreshold}
 			<nav class="pages">
 				{#each pages as p}
-					<a class="page margin-right underline" href={p.href}>{p.t}</a>
+					<a class="page margin-right" href={p.href}>{p.t}</a>
 				{/each}
-				<p tabindex="0" class="page" on:keypress|preventDefault={toggleLanguage} on:click={toggleLanguage}>{switchLanguage}</p>
+				<p tabindex="0" class="page underline" on:keypress|preventDefault={toggleLanguage} on:click={toggleLanguage}>{switchLanguage}</p>
 			</nav>
 			{:else if windowWidth}
 				<svg height="32px" viewBox="0 0 32 32" width="32px" class="hamburger" tabindex="0" on:keypress|preventDefault={toggleMenu} on:click={toggleMenu}>
@@ -59,9 +59,9 @@
 		{#if showMenu && windowWidth < showMenuThreshold}
 			<div class="menu">
 				{#each pages as p}
-					<a class="page margin-bottom underline" href={p.href}>{p.t}</a>
+					<a class="page margin-bottom" href={p.href}>{p.t}</a>
 				{/each}
-				<p tabindex="0" class="page" on:keypress|preventDefault={toggleLanguage} on:click={toggleLanguage}>{switchLanguage}</p>
+				<p tabindex="0" class="page underline" on:keypress|preventDefault={toggleLanguage} on:click={toggleLanguage}>{switchLanguage}</p>
 			</div>
 		{/if}
 	</div>
