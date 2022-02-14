@@ -109,6 +109,7 @@
 		.main-flex {
 			flex-wrap: wrap;
 			align-content: center;
+			align-items: center;
 		}
 		.preview-side {
 			margin-right: 15%;
@@ -116,8 +117,17 @@
 			margin-bottom: 10px;
 		}
 		.text-side {
-			max-width: 100%;
+			margin-left: 5%;
+			margin-right: 5%;
+			width: 100%;
 			margin-top: unset;
+		}
+	}
+
+	@media only screen and (max-width: 640px) {
+		.text-side {
+			margin-left: 2%;
+			margin-right: 2%;
 		}
 	}
 
@@ -126,6 +136,13 @@
 			width: 100%;
 			margin-right: unset;
 			margin-left: unset;
+		}
+		.text-side {
+			margin-left: unset;
+			margin-right: unset;
+
+			font-size: 14px;
+			line-height: 1.5em;
 		}
 	}
 </style>
