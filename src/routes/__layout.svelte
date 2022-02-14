@@ -12,7 +12,7 @@
 		card: "summary_large_image",
 		title: "Escalade Laurentides",
 		description: "Guide d'escalade des Laurentides verticales",
-		image: "https://escaladelaurentides.ca/cover.jpg",
+		image: "https://escaladelaurentides.ca/cover_card.jpg",
 		imageAlt: "Page de couverture du livre d'escalade des Laurentides",
 	}}
 	openGraph={{
@@ -21,7 +21,7 @@
 		url: "https://escaladelaurentides.ca/",
 		type: "website",
 		images: [{
-			url: "https://escaladelaurentides.ca/cover.jpg",
+			url: "https://escaladelaurentides.ca/cover_card.jpg",
 			alt: "Page de couverture du livre d'escalade des Laurentides",
 		}],
 	}}
