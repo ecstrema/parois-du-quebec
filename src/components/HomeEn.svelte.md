@@ -1,20 +1,22 @@
-Le tout **premier guide des parois des Laurentides** est sur le point de voir le jour. Il contiendra:
+The **very first climbing guidebook of the Laurentians** will soon be available.
 
-- **une douzaine des parois** classiques des Laurentides, dont:
+Around 300 pages covering:
+
+- **a dozen classic cliffs** in the region:
   - _Attitude Montagne_
   - _Baldy_
   - _Belle-Neige_
   - _Julien Labedan_
   - _Kanata_
-  - _Kanata Blocs_
+  - _Kanata Bouldering_
   - _Lac Boisseau_
   - _Lac Gervais_
-  - _Lac du Poisson Blanc_
+  - _Réservoir du Poisson Blanc_
   - _Montagne Verte_
   - _Chutes Saint-Philippe_
   - _Paroi Laurin_ (_Macaza_)
-  - _Rigaud_ (bonus en Montérégie).
-- **plus de 500 voies** dans tous les niveaux et tous les styles, réparties dans **une quarantaine de secteurs**.
-- des informations historiques, des fiches sur les personnalités marquantes, sur les régions alentour, etc.
+  - _Rigaud_ (bonus in Montérégie).
+- **600+ routes** of all levels and styles.
+- **Historical informations**, interviews with the pioneers, and more.
 
-En attendant la parution, vous pouvez consulter la section [documents](./documents) où nous avons rassemblé la majorité des guides de cette région actuellement disponibles en ligne.
+Meanwhile, you can visit our [documents](./documents) section, where we have gathered most of the region's online climbing documents.

@@ -1,6 +1,8 @@
-Le tout **premier guide des parois des Laurentides** est sur le point de voir le jour. Il contiendra:
+Le tout **premier guide des parois des Laurentides** est sur le point de voir le jour.
 
-- **une douzaine des parois** classiques des Laurentides, dont:
+Il contiendra:
+
+- **une douzaine des parois** classiques des Laurentides:
   - _Attitude Montagne_
   - _Baldy_
   - _Belle-Neige_
@@ -9,7 +11,7 @@ Le tout **premier guide des parois des Laurentides** est sur le point de voir le
   - _Kanata Blocs_
   - _Lac Boisseau_
   - _Lac Gervais_
-  - _Lac du Poisson Blanc_
+  - _Réservoir du Poisson Blanc_
   - _Montagne Verte_
   - _Chutes Saint-Philippe_
   - _Paroi Laurin_ (_Macaza_)
