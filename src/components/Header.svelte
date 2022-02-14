@@ -114,7 +114,7 @@
 		font-weight: bold;
 	}
 
-	@media only screen and (max-width: 1100px) {
+	@media only screen and (max-width: 1120px) {
 		.title {
 			font-size: 40px;
 		}
