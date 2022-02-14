@@ -39,7 +39,7 @@
 	.text-side {
 		color: #757575;
 		line-height: 24px;
-		max-width: 70%;
+		width: 70%;
 		margin-top: -8px;
 	}
 	.text-side :global(a) {
