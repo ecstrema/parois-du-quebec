@@ -39,6 +39,8 @@
 	.text-side {
 		color: #757575;
 		line-height: 24px;
+		max-width: 70%;
+		margin-top: -8px;
 	}
 	.text-side :global(a) {
 		color: inherit;
@@ -53,11 +55,10 @@
 	.preview-side {
 		display: flex;
 		flex-direction: column;
-		max-width: 100%;
-		width: 500px;
-		min-width: 250px;
+		min-width: 300px;
 		align-items: center;
 		margin-right: 20px;
+		flex-grow: 2;
 	}
 	/* 	.preview {
 		text-align: center;
@@ -88,6 +89,12 @@
 		font-weight: 600;
 		outline: none;
 	} */
+	/*
+	@media only screen and (max-width: 400px) {
+		.preview {
+			width: 100%;
+		}
+	} */
 	:global(.cover) {
 		width: 100%;
 		max-width: 100%;
@@ -97,21 +104,28 @@
 		display: flex;
 		margin: 20px;
 	}
-	@media only screen and (max-width: 600px) {
+
+	@media only screen and (max-width: 730px) {
 		.main-flex {
 			flex-wrap: wrap;
+			align-content: center;
 		}
 		.preview-side {
-			width: 100%;
+			margin-right: 15%;
+			margin-left: 15%;
+			margin-bottom: 10px;
 		}
-		/* 		.preview {
-			width: 85%;
-		} */
+		.text-side {
+			max-width: 100%;
+			margin-top: unset;
+		}
 	}
-	/*
-	@media only screen and (max-width: 400px) {
-		.preview {
+
+	@media only screen and (max-width: 500px) {
+		.preview-side {
 			width: 100%;
+			margin-right: unset;
+			margin-left: unset;
 		}
-	} */
+	}
 </style>
