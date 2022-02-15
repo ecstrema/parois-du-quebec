@@ -38,3 +38,8 @@ ul>li>ul>li::before {
 	padding-right: 8px;
 	padding-left: 8px
 }
+
+a:focus {
+	outline: none;
+	font-weight: bold;
+}

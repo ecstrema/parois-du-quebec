@@ -29,10 +29,11 @@
         transition: stroke 0.2s ease;
 
         cursor: pointer;
+        text-decoration: none;
 
         margin-bottom: -3px;
     }
-    .gh:hover {
+    .gh:hover, .gh:focus{
         stroke: rgb(244, 188, 81);
     }
 
