@@ -13,7 +13,7 @@ const config = {
 		markdown(),
 		imagePreprocessor({
 			inputDir: 'static',
-			outputDir: 'static/generated',
+			outputDir: 'static/generated/images',
 			webp: true,
 			avif: true
 		}),
