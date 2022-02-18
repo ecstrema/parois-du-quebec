@@ -115,6 +115,7 @@
 			margin-right: 15%;
 			margin-left: 15%;
 			margin-bottom: 10px;
+			min-width: 280px;
 		}
 		.text-side {
 			margin-left: 5%;
@@ -128,6 +129,10 @@
 		.text-side {
 			margin-left: 2%;
 			margin-right: 2%;
+		}
+		.preview-side {
+			margin-right: 5%;
+			margin-left: 5%;
 		}
 	}
 
@@ -143,6 +148,10 @@
 
 			font-size: 14px;
 			line-height: 1.5em;
+		}
+		.main-flex {
+			margin-left: 2px;
+			margin-right: 2px;
 		}
 	}
 </style>
