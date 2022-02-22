@@ -18,7 +18,14 @@ body {
 	}
 } */
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
+	.centered-layout {
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
 	.centered-layout {
 		margin-right: 50px;
 		margin-left: 50px;

@@ -28,7 +28,7 @@
 		// { t: $t("MisesAJour"), href: "/updates" },
 		{ t: $t("Documents"), href: "/documents" },
 		{ t: $t("Contact"), href: "/contact" },
-		// { t: $t("Carte"), href: "/map" },
+		{ t: $t("Carte"), href: "/map" },
 	]
 
 	function toggleMenu() {
@@ -114,13 +114,19 @@
 		font-weight: bold;
 	}
 
-	@media only screen and (max-width: 1120px) {
+	@media only screen and (max-width: 1200px) {
 		.title {
 			font-size: 40px;
 		}
 	}
 
-	@media only screen and (max-width: 500px) {
+	@media only screen and (max-width: 980px) {
+		.title {
+			font-size: 35px;
+		}
+	}
+
+	@media only screen and (max-width: 550px) {
 		.title {
 			font-size: 30px;
 			line-height: 1.2em;
