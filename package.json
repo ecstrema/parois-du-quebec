@@ -5,7 +5,7 @@
     "dev": "concurrently -n i18n,kit \"pnpm run watch:translations\" \"pnpm run dev:kit\"",
     "dev:kit": "svelte-kit dev",
     "build": "pnpm run build:translations && svelte-kit build && pnpm run build:sitemap",
-    "build:sitemap": "npx svelte-sitemap --domain https://www.escaladelarentides.ca",
+    "build:sitemap": "npx svelte-sitemap --domain https://www.escaladelaurentides.ca",
     "rebuild": "pnpm run clean && pnpm run build",
     "clean": "rm -rf .svelte-kit && rm -rf build && rm src/generated/translations.ts",
     "deploy:gh": "node ./gh-pages-deploy.js",
