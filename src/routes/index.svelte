@@ -21,7 +21,7 @@
 		</picture> -->
 
 		<Image class="cover" src="/cover.jpg" alt={$t("couverture")} />
-		<!-- 		<button class="preview">
+		<!-- <button class="preview">
 			<img class="download-icon" src="/icons/TablerDownload.svg" aria-hidden="true" alt="download"/>
 			{$t("voirExtraits")}
 		</button> -->
@@ -45,13 +45,13 @@
 	.text-side :global(a) {
 		color: inherit;
 	}
-	/* .download-icon {
+	.download-icon {
 		height: 24px;
 		width: 24px;
-		/* hack to get a white image
+		/* hack to get a white image */
 		filter: invert(1);
 		margin-right: 10px;
-	} */
+	}
 	.preview-side {
 		display: flex;
 		flex-direction: column;
@@ -60,7 +60,7 @@
 		margin-right: 20px;
 		flex-grow: 2;
 	}
-	/* 	.preview {
+	.preview {
 		text-align: center;
 		width: 70%;
 		border-radius: 18px;
@@ -79,16 +79,16 @@
 		align-items: center;
 		justify-content: center;
 
-		/* Needed for an unknown and very strange reason...
+		/* Needed for an unknown and very strange reason... */
 		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', serif
-	} */
-	/* 	.preview:hover, .preview:focus {
+	}
+	.preview:hover, .preview:focus {
 		box-shadow: 0 0 6px rgb(35 173 255);
 	}
 	.preview:focus {
 		font-weight: 600;
 		outline: none;
-	} */
+	}
 	/*
 	@media only screen and (max-width: 400px) {
 		.preview {
