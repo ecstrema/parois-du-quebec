@@ -1,6 +1,6 @@
 Le tout **premier guide des parois des Laurentides** est sur le point de voir le jour.
 
-Ses 300 pages couvrent:
+Près de 300 pages qui couvrent:
 
 - **11 parois** classiques des Laurentides:
   - _Attitude Montagne_
