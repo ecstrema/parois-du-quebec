@@ -1,6 +1,6 @@
 Le tout **premier guide des parois des Laurentides** est sur le point de voir le jour.
 
-Il contiendra:
+Ses 300 pages couvrent:
 
 - **11 parois** classiques des Laurentides:
   - _Attitude Montagne_
@@ -19,7 +19,7 @@ Il contiendra:
 
 En bonus:
 
-- _Rigaud_ en Montérégie.
+- _Rigaud_ en Montérégie
 - Les _blocs de Kanata_
 
 En attendant la parution, vous pouvez consulter la section [documents](./documents) où nous avons rassemblé la majorité des guides de cette région actuellement disponibles en ligne.
