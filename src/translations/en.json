@@ -16,9 +16,15 @@
   "Et plus": "And more…",
   "MerciInfo": "Thank you for notifying us for any updates/errors/inconsistencies in the guidebook. Please provide all details (sector, route, name, date, etc.).",
   "ContacterAuteurs": "Contact authors by email",
-  "LienEmailBrise": "If this link doesn't work, send an email to",
+  "LienEmailBrise": "Direct email: ",
   "infoGuide": "Infos for the Laurentians guidebook",
   "Mises-a-jour": "Updates",
   "Erreur 404": "Error 404",
-  "Weir": "Weir Guidebook"
+  "Weir": "Weir Guidebook",
+  "Moyen de contact": "Contact (Email/Phone/Other)",
+  "send": "Send",
+  "Envoyer": "Send",
+  "Nouvelle mise a jour": "Updates/informations",
+  "Informations": "Informations*",
+  "MerciContact": "SVP laisser une forme de contact pour qu’il soit possible de communiquer avec vous si nécessaire."
 }

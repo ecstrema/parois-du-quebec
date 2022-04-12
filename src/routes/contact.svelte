@@ -1,96 +1,121 @@
 <script lang="ts">
-	import { Title } from "$components";
-	import { t } from "$i18n";
+  import { t } from "$i18n";
 
-	import SvelteSeo from "svelte-seo";
+  import SvelteSeo from "svelte-seo";
 
-	// const emailAddress = "info@escaladelaurentides.ca";
-	const emailAddress = "info@escaladeweir.ca";
+  // const emailAddress = "info@escaladelaurentides.ca";
+  const emailAddress = "info@escaladelaurentides.ca";
 
-	$: pageTitle = `${$t("Contact")} • ${$t("Escalade Laurentides")}`;
+  $: pageTitle = `${$t("Contact")} • ${$t("Escalade Laurentides")}`;
 </script>
 
 <svelte:head>
-	<title>{pageTitle}</title>
+  <title>{pageTitle}</title>
 </svelte:head>
 
-<SvelteSeo description="Contactez les auteurs" />
+<SvelteSeo description="Contacter les auteurs" />
 
-<Title>{$t("Contact")}</Title>
-<div class="center">
-	<p class="description">
-		{$t("MerciInfo")}
-	</p>
-	<a
-		class="mailto"
-		target="_blank"
-		rel="noopener noreferrer"
-		href="mailto:{emailAddress}?subject={$t('infoGuide')}"
-	>
-		{$t("ContacterAuteurs")}
-	</a>
-	<div class="note">
+<div class="flex" style="width: 100%">
+  <form
+    id="sendEmail"
+    action="https://formsubmit.co/info@escaladelaurentides.ca"
+    class="form"
+    method="POST"
+  >
+    <h1>{$t("Nouvelle mise a jour")}</h1>
+    <h3 for="contact">{$t("Moyen de contact")}*</h3>
+    <input type="text" name="contact" required />
+    <h3 for="content">{$t("Informations")}*</h3>
+    <textarea name="content" required />
+    <input
+      type="submit"
+      class="mailto"
+      form="sendEmail"
+      value={$t("Envoyer")}
+    />
+  </form>
+  <div>
+    <p class="description">
+      {$t("MerciInfo")}
+    </p>
+    <div class="description">
+
+      {$t("MerciContact")}
+    </div>
+    <p>
 		{$t("LienEmailBrise")}
-		<strong> {emailAddress}</strong>.
-	</div>
+		{emailAddress}
+	</p>
+  </div>
 </div>
 
 <style>
-	.description {
-		margin-top: 20px;
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 80%;
-	}
-	.center {
-		text-align: center;
-	}
+  textarea {
+    height: 200px;
+  }
+  @media only screen and (max-width: 800px) {
+    textarea {
+      height: 75px;
+    }
+  }
 
-	.note {
-		color: rgb(126, 126, 126);
-		font-size: 14px;
-	}
+  .flex {
+    display: flex;
+    flex-direction: row;
+  }
+  @media only screen and (max-width: 800px) {
+    .flex {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 
-	a {
-		text-decoration: none;
-		color: inherit;
-	}
-	a:focus {
-		outline: none;
-	}
-	.mailto {
-		display: inline-block;
-		text-align: center;
-		width: 60%;
-		border-radius: 10px;
-		background-color: #1976d2;
-		color: white;
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+  }
 
-		margin-top: 40px;
-		margin-bottom: 30px;
+  .description {
+    margin-top: 20px;
+  }
 
-		padding: 10px;
-		box-sizing: border-box;
-		cursor: pointer;
-	}
-	.mailto:hover,
-	.mailto:focus {
-		box-shadow: 0 0 6px rgb(35 173 255);
-	}
-	.mailto:focus {
-		font-weight: 600;
-		outline: none;
-	}
-	@media only screen and (max-width: 800px) {
-		.mailto {
-			width: 100%;
-			margin-top: 20px;
-		}
-	}
-	@media only screen and (max-width: 600px) {
-		.mailto {
-			width: 100%;
-			margin-top: 10px;
-		}
-	}
+  .mailto {
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    width: 15%;
+    min-width: 150px;
+    align-self: center;
+    background-color: #1976d2;
+    color: white;
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  .mailto:hover,
+  .mailto:focus {
+    box-shadow: 0 0 6px rgb(35 173 255);
+  }
+  .mailto:focus {
+    font-weight: 600;
+    outline: none;
+  }
+  @media only screen and (max-width: 800px) {
+    .mailto {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .mailto {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
 </style>
