@@ -1,6 +1,6 @@
 {
     "i18n-ally.localesPaths": [
-        "src/translations"
+        "src/lib/i18n"
     ],
     "i18n-ally.sourceLanguage": "fr",
     "i18n-ally.keystyle": "flat",
