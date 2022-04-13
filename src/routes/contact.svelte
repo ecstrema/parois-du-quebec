@@ -1,3 +1,4 @@
+
 <script lang="ts">
   import { t } from "$i18n";
 
@@ -15,41 +16,77 @@
 
 <SvelteSeo description="Contacter les auteurs" />
 
-<div class="flex" style="width: 100%">
-  <form
-    id="sendEmail"
-    action="https://formsubmit.co/info@escaladelaurentides.ca"
-    class="form"
-    method="POST"
-  >
-    <h1>{$t("Nouvelle mise a jour")}</h1>
-    <h3 for="contact">{$t("Moyen de contact")}*</h3>
-    <input type="text" name="contact" required />
-    <h3 for="content">{$t("Informations")}*</h3>
-    <textarea name="content" required />
-    <input
-      type="submit"
-      class="mailto"
-      form="sendEmail"
-      value={$t("Envoyer")}
-    />
-  </form>
-  <div>
+<div class="row">
+  <div class="gauche">
+    <form
+      id="sendEmail"
+      action="https://formsubmit.co/info@escaladelaurentides.ca"
+      class="form"
+      method="POST"
+    >
+      <h1>{$t("Nouvelle mise a jour")}</h1>
+      <h3 for="contact">{$t("Moyen de contact")}*</h3>
+      <input type="text" name="contact" required style="border: none; background:#F9F9F9; line-height: 3.2em"/>
+      <h3 for="content">{$t("Informations")}*</h3>
+      <textarea name="content" required style="border: none; background:#F9F9F9"/>
+      <input
+        type="submit"
+        class="mailto"
+        form="sendEmail"
+        value={$t("Envoyer")}
+      />
+      <input type="hidden" name="_next" value="https://www.escaladelaurentides.ca/merci">
+    </form>
+  </div>
+  <div class="droite">
     <p class="description">
       {$t("MerciInfo")}
     </p>
-    <div class="description">
+    <div class="description" style="">
 
       {$t("MerciContact")}
     </div>
-    <p>
+    <p  class="description">
 		{$t("LienEmailBrise")}
 		{emailAddress}
-	</p>
+	  </p>
   </div>
 </div>
 
 <style>
+
+
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  
+  /* Create two unequal columns that sits next to each other */
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  @media only screen and (max-width: 900px) {
+    .row {
+      flex-direction: column;
+      //align-items: center;
+      //justify-content: center;
+    }
+  }
+  /* left column */
+  .gauche {
+      flex: 66%;
+  }
+
+  /* Main column */
+  .droite {
+      flex: 25%;
+      padding: 15px;
+      padding-top: 120px;
+  }
+  @media only screen and (max-width: 900px) {
+    .droite{
+      padding-top: 10px;
+    }
+  }
   textarea {
     height: 200px;
   }
@@ -59,22 +96,9 @@
     }
   }
 
-  .flex {
-    display: flex;
-    flex-direction: row;
-  }
-  @media only screen and (max-width: 800px) {
-    .flex {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-  }
-
   .form {
     display: flex;
     flex-direction: column;
-    width: 75vw;
   }
 
   .description {
