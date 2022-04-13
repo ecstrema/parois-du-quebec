@@ -3,12 +3,13 @@ import type { Writable } from 'svelte/store';
 
 import translations from "../../generated/translations";
 import type { Locale, LocaleKey, LocaleParams, LocaleType, LocaleTypes } from './i18n-types';
+import { persistentWritable } from './state';
 
 /** The locale in which your source is written in. */
 export const sourceLocale = "fr";
 
 /** The app's current locale. */
-export const locale: Writable<Locale | typeof sourceLocale> = writable(sourceLocale);
+export const locale: Writable<Locale | typeof sourceLocale> = persistentWritable("locale", sourceLocale);
 
 /**
  * Translation store.
