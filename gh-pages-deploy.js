@@ -20,6 +20,8 @@ if (await getBranch() !== "master") {
 
 console.log("Deploying...")
 
+process.env.CACHE_DIR = '.svelte-kit/cache';
+
 publish(
     'build',
     {
