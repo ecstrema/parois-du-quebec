@@ -31,7 +31,8 @@ publish(
         },
         dotfiles: true // push .nojekyll too
     },
-    () => {
+    (err) => {
+        if (err) console.log(err);
         console.log('Deploy Complete!');
     }
 );
