@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Title, HomeFr, HomeEn } from "$components";
+	import { Title, HomeFr, HomeEn, HomeMemeAuteurEn, HomeMemeAuteurFr } from "$components";
 	import { t, locale } from "$i18n";
 
 	import SvelteSeo from "svelte-seo";
@@ -34,6 +34,9 @@
 		{/if}
 	</div>
 </div>
+
+<Title>{$t("DéjàDispo")}</Title>
+
 <div class="main-flex">
 	<div class="preview-side">
 		<!-- <picture>
