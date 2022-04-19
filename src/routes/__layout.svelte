@@ -7,7 +7,7 @@
 <Lang />
 
 <SvelteSeo
-	keywords="Laurentides, escalade, livre-guide, topo, climbing, Laurentians, guidebook, pages, book, livre, reference, montagne, français, anglais, english, french, Quebec, Qc, Canada, Ca, Kanata, Blocs, Bouldering, boulders, lac Boisseau, Boisseau, Eervais, lac Gervais, Julien Labedan, Chutes St-Philippe, Paroi Laurin, Attitude Montagne, Baldy, Belle-neige, Poisson blanc, Poisson-Blanc, Rigaud"
+	keywords="Laurentides, escalade, livre-guide, topo, climbing, Laurentians, guidebook, pages, book, livre, reference, montagne, français, anglais, english, french, Quebec, Qc, Canada, Ca, Kanata, Blocs, Bouldering, boulders, lac Boisseau, Boisseau, Gervais, lac Gervais, Julien Labedan, Chutes St-Philippe, Paroi Laurin, Attitude Montagne, Baldy, Belle-neige, Poisson blanc, Poisson-Blanc, Rigaud"
 	twitter={{
 		card: "summary_large_image",
 		title: "Escalade Laurentides",
