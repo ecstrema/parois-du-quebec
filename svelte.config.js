@@ -24,6 +24,9 @@ const config = {
 	kit: {
 		adapter: adapt(),
 		appDir: 'internal',
+		prerender: {
+			default: true
+		},
 
 		vite: {
 			resolve: {

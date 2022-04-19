@@ -26,9 +26,9 @@
     >
       <h1>{$t("Nouvelle mise a jour")}</h1>
       <h3 for="contact">{$t("Moyen de contact")}*</h3>
-      <input type="text" name="contact" required style="border: none; background:#F9F9F9; line-height: 3.2em"/>
+      <input type="text" name="contact" required style="border: none; background:#EEE; line-height: 2.5em; border-radius: 6px; font-size: 14px; padding: 4px;"/>
       <h3 for="content">{$t("Informations")}*</h3>
-      <textarea name="content" required style="border: none; background:#F9F9F9"/>
+      <textarea name="content" required style="border: none; background:#EEE; resize: vertical; padding: 10px; border-radius: 6px; font-size: 14px;"/>
       <input
         type="submit"
         class="mailto"
@@ -48,7 +48,7 @@
     </div>
     <p  class="description">
 		{$t("LienEmailBrise")}
-		{emailAddress}
+		<a style="all: unset; cursor: pointer;" target="_blank" rel="noopener noreferrer" href="mailto:{emailAddress}">{emailAddress}</a>
 	  </p>
   </div>
 </div>
@@ -57,7 +57,7 @@
 
 
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-  
+
   /* Create two unequal columns that sits next to each other */
   .row {
     display: flex;
@@ -67,8 +67,6 @@
   @media only screen and (max-width: 900px) {
     .row {
       flex-direction: column;
-      //align-items: center;
-      //justify-content: center;
     }
   }
   /* left column */
@@ -109,6 +107,7 @@
     display: inline-block;
     text-align: center;
     border-radius: 10px;
+    border: none;
     width: 15%;
     min-width: 150px;
     align-self: center;
