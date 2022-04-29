@@ -8,7 +8,7 @@
   "Escalade Laurentides": "Escalade Laurentides",
   "erreurSEstProduite": "Oups. Une erreur s'est produite…",
   "retourAcceuil": "Retour à la page d'acceuil",
-  "Bientot": "Bientôt Disponible !",
+  "disponible": "Maintenant Disponible !",
   "DéjàDispo": "Déjà Disponible",
   "couverturePdB": "La page de couverture du nouveau livre-guide",
   "couvertureWeir": "La page de couverture du livre-guide de Weir",
@@ -25,5 +25,6 @@
   "Erreur 404": "Erreur 404",
   "Weir": "Livre-Guide de Weir",
   "MerciContact": "SVP laisser une forme de contact pour qu’il soit possible de communiquer avec vous si nécessaire.",
-  "Merci": "Merci, votre message a été envoyé."
+  "Merci": "Merci, votre message a été envoyé.",
+  "achatLaurentides": "Commander en ligne"
 }

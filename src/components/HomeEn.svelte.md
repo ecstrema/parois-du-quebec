@@ -1,4 +1,4 @@
-The **very first climbing guidebook of the Laurentians** will soon be available.
+The **very first climbing guidebook of the Laurentians** is now available.
 
 Around 300 pages covering:
 
@@ -22,4 +22,4 @@ Bonus:
 - _Rigaud_ in Montérégie
 - _Kanata Bouldering_
 
-Meanwhile, you can visit our [documents](./documents) section, where we have gathered most of the region's online climbing documents.
+You can visit our [documents](./documents) section, where we have gathered most of the region's online climbing documents.

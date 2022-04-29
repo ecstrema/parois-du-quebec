@@ -1,4 +1,4 @@
-Le tout **premier guide des parois des Laurentides** est sur le point de voir le jour.
+Le tout **premier guide des parois des Laurentides** est maintenant disponible.
 
 Près de 300 pages qui couvrent:
 
@@ -22,4 +22,4 @@ En bonus:
 - _Rigaud_ en Montérégie
 - Les _blocs de Kanata_
 
-En attendant la parution, vous pouvez consulter la section [documents](./documents) où nous avons rassemblé la majorité des guides de cette région actuellement disponibles en ligne.
+Vous pouvez aussi consulter la section [documents](./documents) où nous avons rassemblé la majorité des guides de cette région actuellement disponibles en ligne.

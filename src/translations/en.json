@@ -8,7 +8,7 @@
   "Escalade Laurentides": "Laurentians Climbing",
   "erreurSEstProduite": "Oops. An error ocurred…",
   "retourAcceuil": "Go back to home page",
-  "Bientot": "Coming Soon !",
+  "disponible": "Now Available !",
   "DéjàDispo": "Already available",
   "couverturePdB": "The new guidebook's front cover",
   "couvertureWeir": "Weir guidebook's front cover",
@@ -30,5 +30,6 @@
   "Nouvelle mise à jour": "Updates/informations",
   "Informations": "Informations*",
   "MerciContact": "SVP laisser une forme de contact pour qu’il soit possible de communiquer avec vous si nécessaire.",
-  "Merci": "Thank you, your message has been sent."
+  "Merci": "Thank you, your message has been sent.",
+  "achatLaurentides": "Buy online"
 }
