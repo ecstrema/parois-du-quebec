@@ -20,4 +20,4 @@ Le livre est **disponible dans les points de vente suivants:**
 - Bromont : Backbone
 - Magog: D-Vert
 
-Il est également possible de le commander directement depuis ce site (29$ + 3$ de livraison)
+Il est également possible de le commander directement depuis ce site (29$ + 6$ de livraison)
