@@ -98,10 +98,6 @@
 		width: 24px;
 		margin-right: 10px;
 	}
-	.invert {
-		/* hack to get a white image */
-		filter: invert(1);
-	}
 	.preview-side {
 		display: flex;
 		flex-direction: column;
@@ -162,9 +158,6 @@
 	:global(.cover) {
 		width: 100%;
 		max-width: 100%;
-	}
-	.shadow {
-		box-shadow: 0 8px 24px rgba(149, 157, 165, 0.6);
 	}
 	.main-flex {
 		display: flex;
