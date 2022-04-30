@@ -3,23 +3,23 @@ The **very first climbing guidebook of the Laurentians** is now available.
 Around 300 pages covering:
 
 - **11 classic cliffs** in the region:
-  - _Attitude Montagne_
-  - _Baldy_
-  - _Belle-Neige_
-  - _Julien Labedan_
-  - _Kanata_
-  - _Lac Boisseau_
-  - _Lac Gervais_
-  - _Réservoir du Poisson Blanc_
-  - _Montagne Verte_
-  - _Chutes Saint-Philippe_
-  - _Paroi Laurin_ (_Macaza_)
+  _Attitude Montagne_ • _Baldy_ • _Belle-Neige_ • _Julien Labedan_ • _Kanata_ • _Lac Boisseau_ • _Lac Gervais_ • _Réservoir du Poisson Blanc_ • _Montagne Verte_ • _Chutes Saint-Philippe_ • _Paroi Laurin_ (_Macaza_). Bonus: _Rigaud_ in Montérégie • _Kanata Bouldering_
 - **600+ routes** of all levels and styles.
 - **Historical informations**, interviews with the pioneers, and more.
 
-Bonus:
+The book is **available for purchase at the following locations**:
 
-- _Rigaud_ in Montérégie
-- _Kanata Bouldering_
+- Montreal : Allez-Up, Bloc-Shop, Le Mouv’, Zéro Gravité
+<!-- - Montréal : magasins MEC, centres d’escalade Allez-Up, Bloc-Shop, Le Mouv’, Zéro Gravité -->
+- Laval and Boisbriand : Le Crux
+- St-Adolphe : Attitude Montagne
+<!-- - La Conception : Montagne d’Argent -->
+<!-- - Sherbrooke et Saint-Sauveur : Atmosphère -->
+- Saint-Sauveur : Atmosphère
+- Val-David : Roc & Ride
+- Gatineau : Verti Call
+<!-- - Trois Rivières : Maikan Aventure -->
+<!-- - Québec : centres d’escalade Délire Escalade -->
+<!-- - Magog: D-Vert -->
 
-You can visit our [documents](./documents) section, where we have gathered most of the region's online climbing documents.
+It is also possible to **order a copy directly from this website** (42$ + 10$ shipping)
