@@ -8,15 +8,15 @@ body {
 		'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* * {
-	transition: all 0.2s ease-in-out;
+* {
+	transition: all 0.1s ease-in-out;
 }
 
 @media (prefers-reduced-motion) {
 	* {
-		transition: none !important;
+		transition: none;
 	}
-} */
+}
 
 @media only screen and (min-width: 1050px) {
 	.centered-layout {
