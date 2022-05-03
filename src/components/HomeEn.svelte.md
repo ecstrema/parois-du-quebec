@@ -18,7 +18,7 @@ The book is **available for purchase at the following locations**:
 - Val-David : Roc & Ride
 - Gatineau : Verti Call
 <!-- - Trois Rivières : Maikan Aventure -->
-- Quebec-city : Délire Escalade climbing centers
+- Quebec city : Délire Escalade climbing centers
 <!-- - Magog: D-Vert -->
 
 It is also possible to **order a copy directly from this website** (42$ + 10$ shipping)
