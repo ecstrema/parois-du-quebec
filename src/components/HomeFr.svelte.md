@@ -9,8 +9,7 @@ Près de 300 pages qui couvrent:
 
 Le livre est **disponible dans les points de vente suivants**:
 
-- Montréal : centres d’escalade Allez-Up, Bloc-Shop, Le Mouv’, Zéro Gravité
-<!-- - Montréal : magasins MEC, centres d’escalade Allez-Up, Bloc-Shop, Le Mouv’, Zéro Gravité -->
+- Montréal : centres d’escalade Allez-Up, Bloc-Shop, Le Mouv’, Zéro Gravité, Café Bloc
 - Laval et Boisbriand : Le Crux
 - St-Adolphe : Attitude Montagne
 <!-- - La Conception : Montagne d’Argent -->
@@ -19,7 +18,7 @@ Le livre est **disponible dans les points de vente suivants**:
 - Val-David : Roc & Ride
 - Gatineau : Verti Call
 <!-- - Trois Rivières : Maikan Aventure -->
-<!-- - Québec : centres d’escalade Délire Escalade -->
+- Québec : centres d’escalade Délire Escalade
 <!-- - Magog: D-Vert -->
 
 Il est également possible de le **commander directement depuis ce site**. (42$ + 10$ de livraison)
