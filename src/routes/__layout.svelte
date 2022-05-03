@@ -1,6 +1,5 @@
 <script lang="ts">
 	import SvelteSeo from "svelte-seo";
-	import "../global.css";
 
 	import { Header, Footer, Lang } from "$components";
 </script>
