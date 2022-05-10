@@ -25,7 +25,7 @@
 
 	$: pages = [
 		{ t: $t("Accueil"), href: "/" },
-		// { t: $t("MisesAJour"), href: "/updates" },
+		{ t: $t("MisesAJour"), href: "/updates" },
 		{ t: $t("Documents"), href: "/documents" },
 		{ t: $t("Carte"), href: "/map" },
 		{ t: $t("Contact"), href: "/contact" },

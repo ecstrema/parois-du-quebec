@@ -1,1 +1,5 @@
-There are no updates to the guidebook yet.
+- **page 111&113**: Last Man Standing ~5.10a~ *5.10c*
+- **page 120**: Daisuke Kasahara ouvre Konoha ~V7~ *V8*
+- **page 148 last line of 1st column**: Flavie ~Marin~ *Cardinal*, Marin Papageorgiou ...
+- **page 169**: Pascal Blanchette dans la grande longueur de Treize Trente ~5.10c~ *5.10d*
+- **page 246 last line** : ...dopé à l'expérience d'un *néophyte*.

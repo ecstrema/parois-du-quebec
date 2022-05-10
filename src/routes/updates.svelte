@@ -14,7 +14,7 @@
 <SvelteSeo description="Les mises-à-jour du guide des Laurentides." />
 
 <Title>{$t("Mises-a-jour")}</Title>
-<div style="text-align: center;">
+<div style="text-align: left;">
     {#if $locale == "fr"}
         <UpdatesFr />
     {:else}
