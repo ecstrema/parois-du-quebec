@@ -10,3 +10,8 @@ Le code source pour [escaladelaurentides.ca](https://www.escaladelaurentides.ca)
 Pour le site: `pnpm run deploy` ou `pnpm run publish`
 
 Pour passer en mode mobile dans le navigateur: Ctrl+Shift+M
+
+Quand les changements sont faits. 
+Source Control > Écrire un message > Commit (coche au dessus)
+puis faire "Sync"
+
