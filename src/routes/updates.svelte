@@ -3,7 +3,7 @@
     import { t, locale } from "$i18n";
 
     import SvelteSeo from "svelte-seo";
-
+    import Image from "svimg";
     $: pageTitle = `${$t("Mises-a-jour")} • ${$t("Escalade Laurentides")}`;
 </script>
 
@@ -21,3 +21,4 @@
         <UpdatesEn />
     {/if}
 </div>
+
