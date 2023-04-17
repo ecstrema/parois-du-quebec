@@ -12,6 +12,16 @@
         { name: "Lac-Boisseau 2014", path: "lac-boisseau_2014.pdf" },
         { name: "Poisson Blanc 2020", path: "poisson-blanc_2020.pdf" },
     ];
+    const oldGuidebooksWeir = [
+        { name: "Club Alpin 1966", path: "TopoClubAlpin1966.pdf" },
+        { name: "Bernard Poisson 1971", path: "TopoBernardPoisson1971.pdf" },
+        { name: "FQM 1978", path: "TopoFQM1978.pdf" },
+        { name: "John Harlin 1986", path: "TopoJohnHarlin1986.pdf" },
+        { name: "Pierre Cornellier 1995", path: "TopoPierreCornellier1995.pdf" },
+        { name: "Kelly McCleod (Far Ouest)", path: "VieuxTopoFarOuest.jpg" },
+        { name: "Pierre Cornellier 1998", path: "TopoPierreCornellier1998.pdf" },
+        { name: "Jean-Pierre Ouellet 2008", path: "Jean-weir-par-peewee.pdf" },
+    ];
 
     $: otherResources = [
         { name: $t("Weir"), link: "https://escaladeweir.ca" },
@@ -47,7 +57,7 @@
 
 <div class="responsive-layout">
     <div class="responsive-center">
-        <h2>{$t("Anciens")}</h2>
+        <h2>{$t("AnciensLaurentides")}</h2>
         {#each oldGuidebooks as og}
             <a
                 class="download-button"
@@ -66,6 +76,27 @@
         {/each}
     </div>
 
+    <div class="responsive-center">
+        <h2>{$t("AnciensWeir")}</h2>
+        {#each oldGuidebooksWeir as or}
+            <a
+                class="download-button"
+                href={or.link}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <img
+                    class="download-icon"
+                    src="/icons/RiExternalLinkLine.svg"
+                    aria-hidden="true"
+                    alt="external-link icon"
+                />
+                {or.name}
+            </a>
+            <br />
+        {/each}
+    </div>
+    
     <div class="responsive-center">
         <h2>{$t("Autres resources")}</h2>
         {#each otherResources as or}

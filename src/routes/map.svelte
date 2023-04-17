@@ -23,6 +23,16 @@
     />
 </div>
 
+<div class="map-flex">
+    <iframe
+        class="map"
+        title={$t("Carte")}
+        src="https://www.google.com/maps/d/u/0/embed?mid=13HrRBXsaaNbE-dgmgSZDOxWEp_mCkSHn"
+        width="640"
+        height="480"
+    />
+</div>
+
 <style>
     .map-flex {
         display: flex;

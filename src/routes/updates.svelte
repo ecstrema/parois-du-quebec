@@ -13,12 +13,12 @@
 
 <SvelteSeo description="Les mises-à-jour du guide des Laurentides." />
 
-<Title>{$t("Mises-a-jour")}</Title>
+<Title>{$t("MisesAJourParoisDesBois")}</Title>
 <div style="text-align: left;">
-    {#if $locale == "fr"}
-        <UpdatesFr />
-    {:else}
-        <UpdatesEn />
-    {/if}
+    <UpdatesFr />
+</div>
+<Title>{$t("MisesAJourWeir")}</Title>
+<div style="text-align: left;">
+    <UpdatesEn />
 </div>
 

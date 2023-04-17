@@ -7,12 +7,12 @@
 </script>
 
 <svelte:head>
-	<title>{$t("Escalade Laurentides")}</title>
+	<title>{$t("ParoisDesBois")}</title>
 </svelte:head>
 
 <SvelteSeo description="Le nouveau guide d'escalade des Laurentides" />
 
-<Title>{$t("disponible")}</Title>
+<Title>{$t("ParoisDesBois")}</Title>
 <div class="main-flex">
 	<div class="preview-side">
 		<div class="cover shadow">
@@ -39,28 +39,6 @@
 	</div>
 </div>
 
-<Title>Parois des Bois & Weir</Title>
-<div class="main-flex">
-	<div class="preview-side">
-		<Image class="cover" src="/couvertureCombo.jpg" alt={$t("couverturePdB")} />
-	</div>
-	<div class="text-side">
-		<div>
-			{#if $locale == "fr"}
-			<b>Parois des Bois – Laurentides</b> & <b>Weir – Mont Larose</b><br />
-			pour réduire les frais de transport (42$ + 29$ + 10$ de livraison)
-			{:else}
-			<b>Parois des Bois – Laurentians</b> & <b>Weir – Mont Larose</b><br />
-			to save on shipping (42$ + 29$ + 10$ shipping)
-			{/if}
-		</div>
-		<a class="preview buy-button" style="max-width: 400px;" href="https://square.link/u/nbUorPDN" target="_blank" rel="noopener noreferrer" >
-			<svg width="1.3em" height="1.3em" style="margin-right: 10px;" viewBox="0 0 24 24"><path fill="#4f4f4f" d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2s-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2s2-.9 2-2s-.9-2-2-2zm2-2c0-.55-.45-1-1-1H7l1.1-2h7.45c.75 0 1.41-.41 1.75-1.03l3.24-6.14a.998.998 0 0 0-.4-1.34a.996.996 0 0 0-1.36.41L15.55 11H8.53L4.54 2.57a.993.993 0 0 0-.9-.57H2c-.55 0-1 .45-1 1s.45 1 1 1h1l3.6 7.59l-1.35 2.44C4.52 15.37 5.48 17 7 17h11c.55 0 1-.45 1-1zM11.29 2.71a.996.996 0 0 1 1.41 0l2.59 2.59c.39.39.39 1.02 0 1.41L12.7 9.3a.996.996 0 1 1-1.41-1.41l.88-.89H9c-.55 0-1-.45-1-1s.45-1 1-1h3.17l-.88-.88a.996.996 0 0 1 0-1.41z"></path></svg>
-			Parois des Bois & Weir
-		</a>
-	</div>
-</div>
-
 <Title>Weir – Mont Larose</Title>
 <div class="main-flex">
 	<div class="preview-side">
@@ -79,13 +57,45 @@
 		{:else}
 			<HomeMemeAuteurEn />
 		{/if}
-		<a class="preview buy-button" style="max-width: 400px;" href="https://checkout.square.site/buy/FXJHHCVLAIVUB7WYNRSI3YU2" target="_blank" rel="noopener noreferrer" >
+		<a class="preview buy-button" style="max-width: 400px;" href="javascript:void(0);" target="_self" rel="noopener noreferrer" >
+			<svg width="1.3em" height="1.3em" style="margin-right: 10px;" viewBox="0 0 24 24"><path fill="#4f4f4f" d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2s-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2s2-.9 2-2s-.9-2-2-2zm2-2c0-.55-.45-1-1-1H7l1.1-2h7.45c.75 0 1.41-.41 1.75-1.03l3.24-6.14a.998.998 0 0 0-.4-1.34a.996.996 0 0 0-1.36.41L15.55 11H8.53L4.54 2.57a.993.993 0 0 0-.9-.57H2c-.55 0-1 .45-1 1s.45 1 1 1h1l3.6 7.59l-1.35 2.44C4.52 15.37 5.48 17 7 17h11c.55 0 1-.45 1-1zM11.29 2.71a.996.996 0 0 1 1.41 0l2.59 2.59c.39.39.39 1.02 0 1.41L12.7 9.3a.996.996 0 1 1-1.41-1.41l.88-.89H9c-.55 0-1-.45-1-1s.45-1 1-1h3.17l-.88-.88a.996.996 0 0 1 0-1.41z"></path></svg>
+			{$t("OutofStock")}
+		</a>
+		<!--<a class="preview buy-button" style="max-width: 400px;" href="https://checkout.square.site/buy/FXJHHCVLAIVUB7WYNRSI3YU2" target="_blank" rel="noopener noreferrer" >
 			<svg width="1.3em" height="1.3em" style="margin-right: 10px;" viewBox="0 0 24 24"><path fill="#4f4f4f" d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2s-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2s2-.9 2-2s-.9-2-2-2zm2-2c0-.55-.45-1-1-1H7l1.1-2h7.45c.75 0 1.41-.41 1.75-1.03l3.24-6.14a.998.998 0 0 0-.4-1.34a.996.996 0 0 0-1.36.41L15.55 11H8.53L4.54 2.57a.993.993 0 0 0-.9-.57H2c-.55 0-1 .45-1 1s.45 1 1 1h1l3.6 7.59l-1.35 2.44C4.52 15.37 5.48 17 7 17h11c.55 0 1-.45 1-1zM11.29 2.71a.996.996 0 0 1 1.41 0l2.59 2.59c.39.39.39 1.02 0 1.41L12.7 9.3a.996.996 0 1 1-1.41-1.41l.88-.89H9c-.55 0-1-.45-1-1s.45-1 1-1h3.17l-.88-.88a.996.996 0 0 1 0-1.41z"></path></svg>
 			Weir – Mont Larose
-		</a>
+		</a>-->
 		<div style="margin-top: 1em;">{$t("visiteWeir")}: <a href="http://escaladeweir.ca">escaladeweir.ca</a></div>
 	</div>
 </div>
+
+<Title>Parois des Bois & Weir</Title>
+<div class="main-flex">
+	<div class="preview-side">
+		<Image class="cover" src="/couvertureCombo.jpg" alt={$t("couverturePdB")} />
+	</div>
+	<div class="text-side">
+		<div>
+			{#if $locale == "fr"}
+			<b>Parois des Bois – Laurentides</b> & <b>Weir – Mont Larose</b><br />
+			pour réduire les frais de transport (42$ + 29$ + 10$ de livraison)
+			{:else}
+			<b>Parois des Bois – Laurentians</b> & <b>Weir – Mont Larose</b><br />
+			to save on shipping (42$ + 29$ + 10$ shipping)
+			{/if}
+		</div>
+		<a class="preview buy-button" style="max-width: 400px;" href="javascript:void(0);" target="_self" rel="noopener noreferrer" >
+			<svg width="1.3em" height="1.3em" style="margin-right: 10px;" viewBox="0 0 24 24"><path fill="#4f4f4f" d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2s-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2s2-.9 2-2s-.9-2-2-2zm2-2c0-.55-.45-1-1-1H7l1.1-2h7.45c.75 0 1.41-.41 1.75-1.03l3.24-6.14a.998.998 0 0 0-.4-1.34a.996.996 0 0 0-1.36.41L15.55 11H8.53L4.54 2.57a.993.993 0 0 0-.9-.57H2c-.55 0-1 .45-1 1s.45 1 1 1h1l3.6 7.59l-1.35 2.44C4.52 15.37 5.48 17 7 17h11c.55 0 1-.45 1-1zM11.29 2.71a.996.996 0 0 1 1.41 0l2.59 2.59c.39.39.39 1.02 0 1.41L12.7 9.3a.996.996 0 1 1-1.41-1.41l.88-.89H9c-.55 0-1-.45-1-1s.45-1 1-1h3.17l-.88-.88a.996.996 0 0 1 0-1.41z"></path></svg>
+			{$t("OutofStock")}
+		</a>
+		<!--<a class="preview buy-button" style="max-width: 400px;" href="https://square.link/u/nbUorPDN" target="_blank" rel="noopener noreferrer" >
+			<svg width="1.3em" height="1.3em" style="margin-right: 10px;" viewBox="0 0 24 24"><path fill="#4f4f4f" d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2s-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2s2-.9 2-2s-.9-2-2-2zm2-2c0-.55-.45-1-1-1H7l1.1-2h7.45c.75 0 1.41-.41 1.75-1.03l3.24-6.14a.998.998 0 0 0-.4-1.34a.996.996 0 0 0-1.36.41L15.55 11H8.53L4.54 2.57a.993.993 0 0 0-.9-.57H2c-.55 0-1 .45-1 1s.45 1 1 1h1l3.6 7.59l-1.35 2.44C4.52 15.37 5.48 17 7 17h11c.55 0 1-.45 1-1zM11.29 2.71a.996.996 0 0 1 1.41 0l2.59 2.59c.39.39.39 1.02 0 1.41L12.7 9.3a.996.996 0 1 1-1.41-1.41l.88-.89H9c-.55 0-1-.45-1-1s.45-1 1-1h3.17l-.88-.88a.996.996 0 0 1 0-1.41z"></path></svg>
+			Parois des Bois & Weir
+		</a>-->
+	</div>
+</div>
+
+
 
 <style>
 	.text-side {

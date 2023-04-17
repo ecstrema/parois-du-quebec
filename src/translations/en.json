@@ -9,12 +9,14 @@
   "erreurSEstProduite": "Oops. An error ocurred…",
   "retourAcceuil": "Go back to home page",
   "disponible": "Now Available !",
+  "ParoisDesBois": "Parois des Bois - Laurentians",
   "DéjàDispo": "Already available",
   "couverturePdB": "The new guidebook's front cover",
   "couvertureWeir": "Weir guidebook's front cover",
   "voirExtraits": "Open Preview",
   "sitewebWeir": "www.escaladeweir.ca",
-  "Anciens": "Some older guidebooks",
+  "AnciensLaurentides": "Some older guidebooks - Laurentians",
+  "AnciensWeir": "Some older guidebooks - Weir",
   "Autres resources": "Other resources",
   "Et plus": "And more…",
   "MerciInfo": "Thank you for notifying us for any updates/errors/inconsistencies in the guidebook. Please provide all details (sector, route, name, date, etc.).",
@@ -32,5 +34,8 @@
   "MerciContact": "SVP laisser une forme de contact pour qu’il soit possible de communiquer avec vous si nécessaire.",
   "Merci": "Thank you, your message has been sent.",
   "achatLaurentides": "Direct order",
-  "visiteWeir": "You can also visit this book's website"
+  "visiteWeir": "You can also visit this book's website",
+  "OutofStock": "Out of stock - Unavailable",
+  "MisesAJourWeir": "Updates - Weir",
+  "MisesAJourParoisDesBois": "Updates - Parois des Bois"
 }
