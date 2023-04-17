@@ -8,13 +8,15 @@
   "Escalade Laurentides": "Escalade Laurentides",
   "erreurSEstProduite": "Oups. Une erreur s'est produite…",
   "retourAcceuil": "Retour à la page d'acceuil",
+  "ParoisDesBois": "Parois des Bois - Laurentides",
   "disponible": "Maintenant Disponible !",
   "DéjàDispo": "Déjà Disponible",
   "couverturePdB": "La page de couverture du nouveau livre-guide",
   "couvertureWeir": "La page de couverture du livre-guide de Weir",
   "voirExtraits": "Voir des extraits",
   "sitewebWeir": "www.escaladeweir.ca",
-  "Anciens": "Anciens topos – livres guides",
+  "AnciensLaurentides": "Anciens topos – Laurentides",
+  "AnciensWeir": "Anciens topos – Weir",
   "Autres resources": "Autres resources",
   "Et plus": "Et plus…",
   "MerciInfo": "Merci de nous faire part d’informations de mise à jour qui peuvent compléter/corriger le guide. Fournissez tous les détails possibles (secteur, voie, nom, date, etc.).",
@@ -28,5 +30,8 @@
   "Merci": "Merci, votre message a été envoyé.",
   "achatLaurentides": "Commande directe",
   "achatDouble": "Parois des Bois & Weir",
-  "visiteWeir": "Vous pouvez aussi visiter le site dédié à ce livre"
+  "visiteWeir": "Vous pouvez aussi visiter le site dédié à ce livre",
+  "OutofStock": "Rupture de stock - Non diponible",
+  "MisesAJourWeir": "Mises à jour - Weir",
+  "MisesAJourParoisDesBois": "Mises à jour - Parois des Bois"
 }
