@@ -24,7 +24,6 @@
     ];
 
     $: otherResources = [
-        { name: $t("Weir"), link: "https://escaladeweir.ca" },
         {
             name: "Mountain Project",
             link: "https://www.mountainproject.com/area/107336285/laurentians",
