@@ -20,7 +20,7 @@
         { name: "Pierre Cornellier 1995", path: "TopoPierreCornellier1995.pdf" },
         { name: "Kelly McCleod (Far Ouest)", path: "VieuxTopoFarOuest.jpg" },
         { name: "Pierre Cornellier 1998", path: "TopoPierreCornellier1998.pdf" },
-        { name: "Jean-Pierre Ouellet 2008", path: "Jean-weir-par-peewee.pdf" },
+        { name: "Jean-Pierre Ouellet 2008", path: "weir-par-peewee.pdf" },
     ];
 
     $: otherResources = [
@@ -78,10 +78,10 @@
 
     <div class="responsive-center">
         <h2>{$t("AnciensWeir")}</h2>
-        {#each oldGuidebooksWeir as or}
+        {#each oldGuidebooksWeir as ogw}
             <a
                 class="download-button"
-                href={or.link}
+                href="/guidebooks/existing/{ogw.path}"
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -91,7 +91,7 @@
                     aria-hidden="true"
                     alt="external-link icon"
                 />
-                {or.name}
+                {ogw.name}
             </a>
             <br />
         {/each}
