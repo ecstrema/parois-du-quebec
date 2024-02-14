@@ -19,4 +19,4 @@ The book is **available for purchase at the following locations**:
 - Bromont : Backbone
 - Magog : D-Vert
 
-It is also possible to **order a copy directly from this website** (29$ + 6$ shipping)
+It is also possible to **order a copy directly from this website** (32$ + 6$ shipping)
