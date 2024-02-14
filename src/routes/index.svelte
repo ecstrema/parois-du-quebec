@@ -76,7 +76,7 @@
 <Title>Parois des Bois & Weir</Title>
 <div class="main-flex">
 	<div class="preview-side">
-		<Image class="cover" src="/couvertureCombo.jpg" alt={$t("couverturePdB")} />
+		<Image class="cover" src="/CouvertureParoiDesBois&Weir3_1-s.jpg" alt={$t("couverturePdB")} />
 	</div>
 	<div class="text-side">
 		<div>
