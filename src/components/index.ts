@@ -1,10 +1,12 @@
 import Divider from "./Divider.svelte";
 import Footer from "./Footer.svelte";
 import Header from "./Header.svelte";
-import HomeEn from "./HomeEn.svelte.md";
-import HomeFr from "./HomeFr.svelte.md";
-import HomeMemeAuteurEn from "./HomeMemeAuteurEn.svelte.md";
-import HomeMemeAuteurFr from "./HomeMemeAuteurFr.svelte.md";
+import HomeCoteSudEn from "./HomeCoteSudEn.svelte.md";
+import HomeCoteSudFr from "./HomeCoteSudFr.svelte.md";
+import HomeParoisDesBoisEn from "./HomeParoisDesBoisEn.svelte.md";
+import HomeParoisDesBoisFr from "./HomeParoisDesBoisFr.svelte.md";
+import HomeWeirEn from "./HomeWeirEn.svelte.md";
+import HomeWeirFr from "./HomeWeirFr.svelte.md";
 import Title from "./Title.svelte";
 import UpdatesEn from "./UpdatesEn.svelte.md";
 import UpdatesFr from "./UpdatesFr.svelte.md";
@@ -14,8 +16,9 @@ export {
     Divider,
     Footer,
     Header,
-    HomeEn, HomeFr,
-    HomeMemeAuteurEn, HomeMemeAuteurFr,
+    HomeCoteSudEn, HomeCoteSudFr,
+    HomeParoisDesBoisEn, HomeParoisDesBoisFr,
+    HomeWeirEn, HomeWeirFr,
     Title,
     UpdatesEn, UpdatesFr,
     Lang

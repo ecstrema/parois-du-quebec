@@ -1,4 +1,6 @@
-**La troisième édition du livre guide des parois d’escalade de Weir**. 132 pages en couleurs qui documentent en détails l’une des plus impressionnante falaise des Laurentides:
+**La troisième édition du livre guide des parois d’escalade de Weir** est disponible depuis 2020 et documente en détails l’une des plus impressionnante falaise des Laurentides.
+
+132 pages couvrant:
 
 - **12 secteurs d’escalade** de tous niveaux de difficulté
 - **plus de 200 voies** atteignant jusqu’à 90 mètres de hauteur
@@ -12,12 +14,12 @@ Le livre est **disponible dans les points de vente suivants:**
 - Laval et Boisbriand : Le Crux
 - St-Adolphe : Attitude Montagne
 - La Conception : Montagne d’Argent
-- Sherbrooke et Saint-Sauveur : Atmosphère
+- Saint-Sauveur : Atmosphère
 - Val-David : Roc & Ride
 - Gatineau : Verti Call
-- Trois Rivières : Maikan Aventure
 - Québec : centres d’escalade Délire Escalade
-- Bromont : Backbone
-- Magog: D-Vert
 
-Il est également possible de le commander directement depuis ce site (32$ + 6$ de livraison)
+<!-- - Trois Rivières : Maikan Aventure -->
+<!-- - Bromont : Backbone -->
+<!-- - Magog: D-Vert -->
+<!-- Il est également possible de le commander directement depuis ce site (32$ + 6$ de livraison) -->

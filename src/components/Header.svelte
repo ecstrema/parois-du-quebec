@@ -40,7 +40,7 @@
 	<div class="centered-layout">
 		<nav class="navbar">
 			<a class="title" href="/">
-				{$t("Escalade Laurentides")}
+				{$t("ParoisDuQuebec")}
 			</a>
 			<div class="spacer"></div>
 			{#if windowWidth && windowWidth > showMenuThreshold}
