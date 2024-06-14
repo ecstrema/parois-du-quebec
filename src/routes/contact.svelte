@@ -20,7 +20,7 @@
   <div class="gauche">
     <form
       id="sendEmail"
-      action="https://formsubmit.co/info@escaladelaurentides.ca"
+      action="https://formsubmit.co/info@paroisduquebec.ca"
       class="form"
       method="POST"
     >
@@ -35,7 +35,7 @@
         form="sendEmail"
         value={$t("Envoyer")}
       />
-      <input type="hidden" name="_next" value="https://www.escaladelaurentides.ca/merci">
+      <input type="hidden" name="_next" value="https://www.paroisduquebec.ca/merci">
     </form>
   </div>
   <div class="droite">
