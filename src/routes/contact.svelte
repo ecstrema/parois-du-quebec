@@ -5,7 +5,7 @@
   import SvelteSeo from "svelte-seo";
 
   // const emailAddress = "info@escaladelaurentides.ca";
-  const emailAddress = "info@escaladelaurentides.ca";
+  const emailAddress = "info@paroisduquebec.ca";
 
   $: pageTitle = `${$t("Contact")} • ${$t("Escalade Laurentides")}`;
 </script>
