@@ -1,6 +1,6 @@
 # Escalade Laurentides
 
-Le code source pour [escaladelaurentides.ca](https://www.escaladelaurentides.ca).
+Le code source pour [paroisduquebec.ca](https://www.paroisduquebec.ca), successeur d'[escaladelaurentides.ca](https://www.escaladelaurentides.ca).
 
 ## Développement
 
