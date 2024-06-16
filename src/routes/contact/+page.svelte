@@ -1,6 +1,6 @@
 
 <script lang="ts">
-  import { t } from "$i18n";
+  import { t } from "../../lib/i18n";
 
   import SvelteSeo from "svelte-seo";
 
@@ -25,9 +25,9 @@
       method="POST"
     >
       <h1>{$t("Nouvelle mise à jour")}</h1>
-      <h3 for="contact">{$t("Moyen de contact")}*</h3>
+      <h3>{$t("Moyen de contact")}*</h3>
       <input type="text" name="contact" required style="border: none; background:#EEE; line-height: 2.5em; border-radius: 6px; font-size: 14px; padding: 4px;"/>
-      <h3 for="content">{$t("Informations")}*</h3>
+      <h3>{$t("Informations")}*</h3>
       <textarea name="content" required style="border: none; background:#EEE; resize: vertical; padding: 10px; border-radius: 6px; font-size: 14px;"/>
       <input
         type="submit"

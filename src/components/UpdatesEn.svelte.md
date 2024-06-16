@@ -1,5 +1,5 @@
 <script lang="ts">
-    import Image from "svimg";
+	import Image from "svimg/Image.svelte";
 </script>
 - **Accès**: Un nouveau stationnement à été amménagé en face de celui qui existait déjà pour accomoder l’augmentation de popularité du site.
 - **page 32-36 Secteur Far Ouest**: Les voies qui portent la mention groupe de l’ouest on été ouvertes par Kelly McCleod.

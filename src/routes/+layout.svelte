@@ -1,7 +1,7 @@
 <script lang="ts">
 	import SvelteSeo from "svelte-seo";
 
-	import { Header, Footer, Lang } from "$components";
+	import { Header, Footer, Lang } from "../components";
 </script>
 
 <Lang />
@@ -29,7 +29,6 @@
 		"@context": "https://schema.org",
 		"@type": "BreadcrumbList",
 		url: "https://www.escaladelaurentides.ca",
-		logo: "https://www.escaladelaurentides.ca/cover.jpg",
 		itemListElement: [
 			{
 				"@type": "ListItem",

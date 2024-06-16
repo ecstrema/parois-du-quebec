@@ -1,9 +1,8 @@
 <script lang="ts">
-    import { Title, UpdatesEn, UpdatesFr } from "$components";
-    import { t, locale } from "$i18n";
+    import { Title, UpdatesEn, UpdatesFr } from "../../components";
+    import { t } from "../../lib/i18n";
 
     import SvelteSeo from "svelte-seo";
-    import Image from "svimg";
     $: pageTitle = `${$t("Mises-a-jour")} • ${$t("Escalade Laurentides")}`;
 </script>
 
@@ -21,4 +20,3 @@
 <div style="text-align: left;">
     <UpdatesEn />
 </div>
-

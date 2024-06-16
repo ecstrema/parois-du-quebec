@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { locale } from "$i18n";
+    import { locale } from "../lib/i18n";
     import { onMount } from "svelte";
 
     let doc = undefined;

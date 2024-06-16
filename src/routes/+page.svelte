@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { Title, HomeCoteSudFr, HomeCoteSudEn, HomeParoisDesBoisFr, HomeParoisDesBoisEn, HomeWeirEn, HomeWeirFr } from "$components";
-	import { t, locale } from "$i18n";
+	import { Title, HomeCoteSudFr, HomeCoteSudEn, HomeParoisDesBoisFr, HomeParoisDesBoisEn, HomeWeirEn, HomeWeirFr } from "../components";
+	import { t, locale } from "../lib/i18n";
 
 	import SvelteSeo from "svelte-seo";
-	import Image from "svimg";
+	import Image from "svimg/Image.svelte";
 </script>
 
 <svelte:head>

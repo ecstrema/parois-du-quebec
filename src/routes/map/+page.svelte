@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { t } from "$i18n";
+    import { t } from "../../lib/i18n";
 
     import SvelteSeo from "svelte-seo";
     $: pageTitle = `${$t("Carte")} • ${$t("Escalade Laurentides")}`;
@@ -16,8 +16,8 @@
     <iframe
         class="map"
         title={$t("Carte")}
-        src="https://www.google.com/maps/d/embed?mid=17EHJvoqC6yqkjaG-nBvZuIZUVt5oOTo&ehbc=2E312F" 
-        width="640" 
+        src="https://www.google.com/maps/d/embed?mid=17EHJvoqC6yqkjaG-nBvZuIZUVt5oOTo&ehbc=2E312F"
+        width="640"
         height="480"
     />
 </div>

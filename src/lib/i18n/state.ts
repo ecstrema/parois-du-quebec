@@ -1,5 +1,5 @@
 import { writable, type Writable } from "svelte/store";
-import { browser } from '$app/env';
+import { browser } from '$app/environment';
 
 // A wrapper around Sveltle's `writable` to sync with local storage
 // Only works in the browser, so with production builds.

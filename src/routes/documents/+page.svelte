@@ -1,6 +1,6 @@
 <script lang="ts">
-    import Title from "$components/Title.svelte";
-    import { t } from "$i18n";
+    import Title from "../../components/Title.svelte";
+    import { t } from "../../lib/i18n";
 
     import SvelteSeo from "svelte-seo";
 
@@ -95,7 +95,7 @@
             <br />
         {/each}
     </div>
-    
+
     <div class="responsive-center">
         <h2>{$t("Autres resources")}</h2>
         {#each otherResources as or}

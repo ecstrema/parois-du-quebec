@@ -17,7 +17,7 @@ type ToIntersection<T> = (T extends unknown ? ((x: T) => 0) : never) extends ((x
 type AllLocaleTypes = ToIntersection<TranslationsType[Locale]>;
 
 export type LocaleType = {
-    [P in keyof AllLocaleTypes]+?: AllLocaleTypes[P];
+    [P in keyof AllLocaleTypes]: AllLocaleTypes[P];
 }
 
 export type LocaleKey = keyof LocaleType;
