@@ -8,8 +8,6 @@ import HomeParoisDesBoisFr from "./HomeParoisDesBoisFr.svelte.md";
 import HomeWeirEn from "./HomeWeirEn.svelte.md";
 import HomeWeirFr from "./HomeWeirFr.svelte.md";
 import Title from "./Title.svelte";
-import UpdatesEn from "./UpdatesEn.svelte.md";
-import UpdatesFr from "./UpdatesFr.svelte.md";
 import Lang from "./Lang.svelte";
 
 export {

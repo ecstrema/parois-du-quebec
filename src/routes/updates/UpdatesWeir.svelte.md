@@ -1,6 +1,3 @@
-<script lang="ts">
-	import Image from "svimg/Image.svelte";
-</script>
 - **Accès**: Un nouveau stationnement à été amménagé en face de celui qui existait déjà pour accomoder l’augmentation de popularité du site.
 - **page 32-36 Secteur Far Ouest**: Les voies qui portent la mention groupe de l’ouest on été ouvertes par Kelly McCleod.
 - **page 42 Manon vient Danser le Ska**:  juste avant la parution du livre guide, une plaquette à été ajoutée au bas de la voie par une équipe qui pensait en faire la première. La voie n’est donc plus entièrement Trad. mais maintenant Mixte.

@@ -1,6 +1,9 @@
 <script lang="ts">
-    import { Title, UpdatesEn, UpdatesFr } from "../../components";
+    import { Title } from "../../components";
     import { t } from "../../lib/i18n";
+
+    import UpdatesParoisDesBois from "./UpdatesParoisDesBois.svelte.md";
+    import UpdatesWeir from "./UpdatesWeir.svelte.md";
 
     import SvelteSeo from "svelte-seo";
     $: pageTitle = `${$t("Mises-a-jour")} • ${$t("Escalade Laurentides")}`;
@@ -14,9 +17,9 @@
 
 <Title>{$t("MisesAJourParoisDesBois")}</Title>
 <div style="text-align: left;">
-    <UpdatesFr />
+    <UpdatesParoisDesBois />
 </div>
 <Title>{$t("MisesAJourWeir")}</Title>
 <div style="text-align: left;">
-    <UpdatesEn />
+    <UpdatesWeir />
 </div>

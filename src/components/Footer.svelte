@@ -1,6 +1,9 @@
+<script>
+    import Logo from './logo.svg';
+</script>
 <footer>
-    <!-- <p class="copyright">Marche & Cornellier © 2021 – {new Date().getFullYear()}</p> -->
     <div class="copyright">
+        <img src={Logo} alt="logo" width="80px" style="margin-right: 20px;">
         <p>Marche & Cornellier © {new Date().getFullYear()}</p>
         <a class="gh" href="https://github.com/marr11317/escalade-laurentides" target="_blank" rel="noopener noreferrer">
             <svg width="1.3em" height="1.3em" viewBox="0 0 24 24">
@@ -43,5 +46,6 @@
         text-align: center;
         flex-shrink: 0;
         background-color: #ffffff;
+        padding-bottom: 20px;
     }
 </style>

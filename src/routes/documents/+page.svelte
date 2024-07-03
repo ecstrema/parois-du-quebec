@@ -2,6 +2,9 @@
     import Title from "../../components/Title.svelte";
     import { t } from "../../lib/i18n";
 
+    import RiExternalLinkLine from "./RiExternalLinkLine.svg";
+    import TablerDownload from "./TablerDownload.svg";
+
     import SvelteSeo from "svelte-seo";
 
     const oldGuidebooks = [
@@ -65,7 +68,7 @@
             >
                 <img
                     class="download-icon"
-                    src="/icons/TablerDownload.svg"
+                    src={TablerDownload}
                     aria-hidden="true"
                     alt="download"
                 />
@@ -86,7 +89,7 @@
             >
                 <img
                     class="download-icon"
-                    src="/icons/RiExternalLinkLine.svg"
+                    src={RiExternalLinkLine}
                     aria-hidden="true"
                     alt="external-link icon"
                 />
@@ -107,7 +110,7 @@
             >
                 <img
                     class="download-icon"
-                    src="/icons/RiExternalLinkLine.svg"
+                    src={RiExternalLinkLine}
                     aria-hidden="true"
                     alt="external-link icon"
                 />
@@ -127,7 +130,7 @@
             >
                 <img
                     class="download-icon"
-                    src="/icons/TablerDownload.svg"
+                    src={TablerDownload}
                     aria-hidden="true"
                     alt="download"
                 />

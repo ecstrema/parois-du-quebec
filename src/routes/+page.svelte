@@ -3,7 +3,6 @@
 	import { t, locale } from "../lib/i18n";
 
 	import SvelteSeo from "svelte-seo";
-	import Image from "svimg/Image.svelte";
 </script>
 
 <svelte:head>
@@ -17,9 +16,7 @@
 <Title>{$t("ParoisDuQuebecCoteSud")}</Title>
 <div class="main-flex">
 	<div class="preview-side">
-		<div class="cover shadow">
-			<Image src="/CouvertureCoteSud_lowres.jpg" alt={$t("couvertureCoteSud")} />
-		</div>
+		<enhanced:img src="./CouvertureParoisDuQuebec-CoteSud.jpg?w=500" alt={$t("couvertureCoteSud")} class="cover shadow"/>
 		<a class="preview" href="/ExtraitsCoteSud.pdf" target="_blank" rel="noopener noreferrer" >
 			<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path fill="currentColor" d="M1014.62 969.04L731.594 684.273c60.608-72.4 97.089-165.761 97.089-267.713C828.683 186.496 643.179-.001 413.13-.001S-3.413 186.495-3.413 416.543S183.083 833.087 413.13 833.087c105.008 0 200.672-38.96 273.696-103.072l282.528 284.304c12.496 12.496 32.769 12.496 45.249 0c12.512-12.512 12.512-32.768.016-45.28zM412.59 768.001c-193.552 0-352-158.448-352-352s158.448-352 352-352s352 158.448 352 352s-158.448 352-352 352zm160-384h-128v-128c0-17.664-14.336-32-32-32s-32 14.336-32 32v128h-128c-17.664 0-32 14.336-32 32s14.336 32 32 32h128v128c0 17.664 14.336 32 32 32s32-14.336 32-32v-128h128c17.664 0 32-14.336 32-32s-14.32-32-32-32z"></path></svg>
 			{$t("voirExtraits")}
@@ -48,9 +45,7 @@
 <Title>{$t("ParoisDesBois")}</Title>
 <div class="main-flex">
 	<div class="preview-side">
-		<div class="cover shadow">
-			<Image src="/cover.jpg" alt={$t("couverturePdB")} />
-		</div>
+		<enhanced:img src="./CouvertureParoisDesBois.jpg?w=500" alt={$t("couverturePdB")} class="cover shadow" />
 		<a class="preview" href="/ExtraitsParoisDesBoisLaurentides.pdf" target="_blank" rel="noopener noreferrer" >
 			<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path fill="currentColor" d="M1014.62 969.04L731.594 684.273c60.608-72.4 97.089-165.761 97.089-267.713C828.683 186.496 643.179-.001 413.13-.001S-3.413 186.495-3.413 416.543S183.083 833.087 413.13 833.087c105.008 0 200.672-38.96 273.696-103.072l282.528 284.304c12.496 12.496 32.769 12.496 45.249 0c12.512-12.512 12.512-32.768.016-45.28zM412.59 768.001c-193.552 0-352-158.448-352-352s158.448-352 352-352s352 158.448 352 352s-158.448 352-352 352zm160-384h-128v-128c0-17.664-14.336-32-32-32s-32 14.336-32 32v128h-128c-17.664 0-32 14.336-32 32s14.336 32 32 32h128v128c0 17.664 14.336 32 32 32s32-14.336 32-32v-128h128c17.664 0 32-14.336 32-32s-14.32-32-32-32z"></path></svg>
 			{$t("voirExtraits")}
@@ -79,9 +74,7 @@
 <Title>Weir – Mont Larose</Title>
 <div class="main-flex">
 	<div class="preview-side">
-		<div class="cover shadow">
-			<Image src="/CouvertureWeir3_1_lowres.jpg" alt={$t("couvertureWeir")} />
-		</div>
+		<enhanced:img src="./CouvertureWeir3_1.jpg?w=500" alt={$t("couvertureWeir")} class="cover shadow" />
 		<a class="preview" href="/ExtraitsTopoWeir3-1-small.pdf" target="_blank" rel="noopener noreferrer" >
 			<svg class="download-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path fill="currentColor" d="M1014.62 969.04L731.594 684.273c60.608-72.4 97.089-165.761 97.089-267.713C828.683 186.496 643.179-.001 413.13-.001S-3.413 186.495-3.413 416.543S183.083 833.087 413.13 833.087c105.008 0 200.672-38.96 273.696-103.072l282.528 284.304c12.496 12.496 32.769 12.496 45.249 0c12.512-12.512 12.512-32.768.016-45.28zM412.59 768.001c-193.552 0-352-158.448-352-352s158.448-352 352-352s352 158.448 352 352s-158.448 352-352 352zm160-384h-128v-128c0-17.664-14.336-32-32-32s-32 14.336-32 32v128h-128c-17.664 0-32 14.336-32 32s14.336 32 32 32h128v128c0 17.664 14.336 32 32 32s32-14.336 32-32v-128h128c17.664 0 32-14.336 32-32s-14.32-32-32-32z"></path></svg>
 			{$t("voirExtraits")}
@@ -110,7 +103,7 @@
 <!--<Title>Parois des Bois & Weir</Title>
 <div class="main-flex">
 	<div class="preview-side">
-		<Image class="cover" src="/CouvertureParoiDesBois&Weir3_1-s.jpg" alt={$t("couverturePdB")} />
+		<enhanced:img class="/static/cover" src="/CouvertureParoiDesBois&Weir3_1-s.jpg" alt={$t("couverturePdB")} />
 	</div>
 	<div class="text-side">
 		<div>
@@ -156,6 +149,7 @@
 		flex-direction: column;
 		min-width: 300px;
 		align-items: center;
+		max-width: 500px;
 		margin-right: 20px;
 		flex-grow: 2;
 	}
@@ -187,7 +181,7 @@
 	.preview:hover, .preview:focus {
 		box-shadow: 0 0 8px rgb(35 173 255);
 	}
-	.buy-button {
+	/* .buy-button {
 		box-shadow: inset 0 0 0 1px #dcdcdc;
 		text-shadow: 0 1px 1px rgba(255,255,255,0.25);
 		background-color: #f0f0f0;
@@ -195,7 +189,7 @@
 	}
 	.buy-button:hover, .buy-button:focus {
 		box-shadow: inset 0 0 0 1px #dcdcdc, 0 0 4px rgb(35 173 255);
-	}
+	} */
 	.preview:focus {
 		font-weight: 600;
 		outline: none;
@@ -206,9 +200,9 @@
 			width: 100%;
 		}
 	} */
-	:global(.cover) {
+	.cover {
 		width: 100%;
-		max-width: 100%;
+		height: auto;
 	}
 	.shadow {
 		box-shadow: 0 8px 24px rgba(149, 157, 165, 0.6);
@@ -219,10 +213,10 @@
 	}
 
 	@media only screen and (max-width: 730px) {
-		.buy-button {
+		/* .buy-button {
 			margin-right: auto;
 			margin-left: auto;
-		}
+		} */
 		.main-flex {
 			flex-wrap: wrap;
 			align-content: center;
