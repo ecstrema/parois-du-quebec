@@ -24,7 +24,6 @@
 		"@messageformat/cli": "^4.0.1",
 		"@messageformat/core": "^3.3.0",
 		"@messageformat/runtime": "^3.0.1",
-		"@poppanator/sveltekit-svg": "^4.2.1",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/adapter-static": "^3.0.2",
 		"@sveltejs/enhanced-img": "^0.3.0",
