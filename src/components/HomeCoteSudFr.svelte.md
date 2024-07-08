@@ -1,4 +1,4 @@
-Le **tout premier guide des parois d'escalade du Bas-Saint-Laurent et de la Gaspésie** sera disponible à partir de juillet 2024.
+Le **tout premier guide des parois d'escalade du Bas-Saint-Laurent et de la Gaspésie** est disponible depuis juillet 2024.
 
 216 pages couvrant:
 
@@ -7,14 +7,14 @@ Le **tout premier guide des parois d'escalade du Bas-Saint-Laurent et de la Gasp
 - **plus de 400 voies** dans tous les niveaux et tous les styles.
 - des informations historiques, des fiches sur les personnalités marquantes, sur les régions alentour, etc.
 
-Le livre devrait être **disponible dans les points de vente suivants**:
+Le livre est **disponible dans les points de vente suivants**:
 
-- Rimouski : Riki Bloc, Gendron Sports
-- Kamouraska : Camping de la Batture SEBKA
+- Rimouski : centre d'escalade Riki Bloc, Gendron Sports
+- Kamouraska : Camping de la Batture SEBKA, centre d'escalade Le Rebond
 - Montreal : centres d'escalade Allez-Up, Bloc-Shop, Le Mouv’, Zéro Gravité, Café Bloc
 - Laval and Boisbriand : Le Crux
 - Gatineau : Verti Call
-- Quebec : Délire Escalade
+- Québec : centres d'escalade Délire Escalade
 
 <!-- - St-Adolphe : Attitude Montagne -->
 <!-- - La Conception : Montagne d’Argent --> 

@@ -1,4 +1,4 @@
-The **very first climbing guidebook of Gaspésie and Bas-Saint-Laurent regions** will be available starting july 2024.
+The **very first climbing guidebook of Gaspésie and Bas-Saint-Laurent regions** is available since july 2024.
 
 216 pages covering:
 
@@ -7,14 +7,14 @@ The **very first climbing guidebook of Gaspésie and Bas-Saint-Laurent regions**
 - **400+ routes** of all levels and styles.
 - **Historical informations**, interviews with the pioneers, and more.
 
-The book should be **available for purchase at the following locations**:
+The book is **available for purchase at the following locations**:
 
-- Rimouski : Riki Bloc, Gendron Sports
+- Rimouski : climbing gym Riki Bloc, Gendron Sports
 - Kamouraska : Camping de la Batture SEBKA
-- Montreal : Climbing gyms Allez-Up, Bloc-Shop, Le Mouv’, Zéro Gravité, Café Bloc
-- Laval and Boisbriand : Le Crux
+- Montreal : climbing gyms Allez-Up, Bloc-Shop, Le Mouv’, Zéro Gravité, Café Bloc
+- Laval and Boisbriand : climbing gyms Le Crux
 - Gatineau : Verti Call
-- Quebec : Délire Escalade
+- Quebec : climbing gyms Délire Escalade
 
 <!-- - St-Adolphe : Attitude Montagne
 - La Conception : Montagne d’Argent
