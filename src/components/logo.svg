@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="720"
-   height="720"
-   viewBox="0 0 190.5 190.50002"
+   width="377.95276"
+   height="442.7298"
+   viewBox="0 0 377.95276 442.72978"
    version="1.1"
    id="svg6615"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -25,14 +25,15 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.69931958"
-     inkscape:cx="364.64015"
-     inkscape:cy="403.96409"
-     inkscape:window-width="3072"
-     inkscape:window-height="1659"
+     inkscape:cx="245.95336"
+     inkscape:cy="399.67421"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     showguides="false" />
   <defs
      id="defs6612">
     <filter
@@ -53,10 +54,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(9.3145884,-42.546337)">
+     transform="translate(-6.6272003,-44.895532)">
     <g
        id="g6302"
-       transform="matrix(1.3691581,0,0,1.3691581,-56.692679,5.4232814)"
+       transform="matrix(3.2624429,0,0,3.2624429,-144.25199,-49.15934)"
        style="display:inline;filter:url(#filter6666)">
       <g
          id="g6262">
