@@ -44,7 +44,7 @@
         { name: "St. Côme Centre-Ville", path: "st-come-centre-ville.pdf" },
     ];
 
-    $: pageTitle = `${$t("Documents")} • ${$t("Escalade Laurentides")}`;
+    $: pageTitle = `${$t("Documents")} • ${$t("ParoisDuQuebec")}`;
 </script>
 
 <svelte:head>
@@ -66,9 +66,8 @@
                 href="/guidebooks/existing/{og.path}"
                 download
             >
-                <img
+                <TablerDownload
                     class="download-icon"
-                    src={TablerDownload}
                     aria-hidden="true"
                     alt="download"
                 />
@@ -87,9 +86,8 @@
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <img
+                <RiExternalLinkLine
                     class="download-icon"
-                    src={RiExternalLinkLine}
                     aria-hidden="true"
                     alt="external-link icon"
                 />
@@ -108,9 +106,8 @@
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <img
+                <RiExternalLinkLine
                     class="download-icon"
-                    src={RiExternalLinkLine}
                     aria-hidden="true"
                     alt="external-link icon"
                 />
@@ -128,9 +125,8 @@
                 href="/guidebooks/ours/{op.path}"
                 download
             >
-                <img
+                <TablerDownload
                     class="download-icon"
-                    src={TablerDownload}
                     aria-hidden="true"
                     alt="download"
                 />
@@ -180,7 +176,7 @@
         text-align: center;
     }
 
-    .download-icon {
+    :global(.download-icon) {
         height: 24px;
         width: 24px;
         margin-right: 4px;

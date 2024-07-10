@@ -3,52 +3,54 @@
 
 	import SvelteSeo from "svelte-seo";
 
-	import { Header, Footer, Lang } from "../components";
+	import Header from "../components/Header.svelte";
+	import Footer from "../components/Footer.svelte";
+	import Lang from "../components/Lang.svelte";
 </script>
 
 <Lang />
 
 <SvelteSeo
-	keywords="Laurentides, escalade, livre-guide, topo, climbing, Laurentians, guidebook, pages, book, livre, reference, montagne, français, anglais, english, french, Quebec, Qc, Canada, Ca, Kanata, Blocs, Bouldering, boulders, lac Boisseau, Boisseau, Gervais, lac Gervais, Julien Labedan, Chutes St-Philippe, Paroi Laurin, Attitude Montagne, Baldy, Belle-neige, Poisson blanc, Poisson-Blanc, Rigaud"
+	keywords="Parois, Kamouraska, Coton, Montagne, Rimouski, Laurentides, escalade, livre-guide, topo, climbing, Laurentians, guidebook, pages, book, livre, reference, montagne, français, anglais, english, french, Quebec, Qc, Canada, Ca, Kanata, Blocs, Bouldering, boulders, lac Boisseau, Boisseau, Gervais, lac Gervais, Julien Labedan, Chutes St-Philippe, Paroi Laurin, Attitude Montagne, Baldy, Belle-neige, Poisson blanc, Poisson-Blanc, Rigaud"
 	twitter={{
 		card: "summary_large_image",
-		title: "Escalade Laurentides",
-		description: "Guide d'escalade des Laurentides verticales",
-		image: "https://escaladelaurentides.ca/cover_card.jpg",
+		title: "Parois du Québec",
+		description: "Guides d'escalade du Québec",
+		image: "https://paroisduquebec.ca/cover_card.jpg",
 		imageAlt: "Page de couverture du livre d'escalade des Laurentides",
 	}}
 	openGraph={{
-		title: "Escalade Laurentides",
-		description: "Guide d'escalade des Laurentides verticales",
-		url: "https://escaladelaurentides.ca/",
+		title: "Parois du Québec",
+		description: "Guides d'escalade du Québec",
+		url: "https://paroisduquebec.ca/",
 		type: "website",
 		images: [{
-			url: "https://escaladelaurentides.ca/cover_card.jpg",
+			url: "https://paroisduquebec.ca/cover_card.jpg",
 			alt: "Page de couverture du livre d'escalade des Laurentides",
 		}],
 	}}
 	jsonLd={{
 		"@context": "https://schema.org",
 		"@type": "BreadcrumbList",
-		url: "https://www.escaladelaurentides.ca",
+		url: "https://www.paroisduquebec.ca",
 		itemListElement: [
 			{
 				"@type": "ListItem",
 				position: 1,
 				name: "Accueil",
-				item: "https://escaladeLaurentides.ca",
+				item: "https://paroisduquebec.ca",
 			},
 			{
 				"@type": "ListItem",
 				position: 2,
 				name: "Documents",
-				item: "https://escaladeLaurentides.ca/documents",
+				item: "https://paroisduquebec.ca/documents",
 			},
 			{
 				"@type": "ListItem",
 				position: 3,
 				name: "Contact",
-				item: "https://escaladeLaurentides.ca/contact",
+				item: "https://paroisduquebec.ca/contact",
 			},
 		],
 	}}

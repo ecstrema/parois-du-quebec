@@ -1,5 +1,11 @@
 <script lang="ts">
-	import { Title, HomeCoteSudFr, HomeCoteSudEn, HomeParoisDesBoisFr, HomeParoisDesBoisEn, HomeWeirEn, HomeWeirFr } from "../components";
+	import Title from "../components/Title.svelte";
+	import HomeCoteSudFr from "./HomeCoteSudFr.svelte.md";
+	import HomeCoteSudEn from "./HomeCoteSudEn.svelte.md";
+	import HomeParoisDesBoisFr from "./HomeParoisDesBoisFr.svelte.md";
+	import HomeParoisDesBoisEn from "./HomeParoisDesBoisEn.svelte.md";
+	import HomeWeirFr from "./HomeWeirFr.svelte.md";
+	import HomeWeirEn from "./HomeWeirEn.svelte.md";
 	import { t, locale } from "../lib/i18n";
 
 	import SvelteSeo from "svelte-seo";

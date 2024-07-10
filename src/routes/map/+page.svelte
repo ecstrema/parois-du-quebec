@@ -2,7 +2,7 @@
     import { t } from "../../lib/i18n";
 
     import SvelteSeo from "svelte-seo";
-    $: pageTitle = `${$t("Carte")} • ${$t("Escalade Laurentides")}`;
+    $: pageTitle = `${$t("Carte")} • ${$t("ParoisDuQuebec")}`;
 </script>
 
 <svelte:head>

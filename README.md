@@ -1,4 +1,4 @@
-# Escalade Laurentides
+# Parois du Quebec
 
 Le code source pour [paroisduquebec.ca](https://www.paroisduquebec.ca), successeur d'[escaladelaurentides.ca](https://www.escaladelaurentides.ca).
 

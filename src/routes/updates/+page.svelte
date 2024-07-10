@@ -1,12 +1,12 @@
 <script lang="ts">
-    import { Title } from "../../components";
+    import Title from "../../components/Title.svelte";
     import { t } from "../../lib/i18n";
 
     import UpdatesParoisDesBois from "./UpdatesParoisDesBois.svelte.md";
     import UpdatesWeir from "./UpdatesWeir.svelte.md";
 
     import SvelteSeo from "svelte-seo";
-    $: pageTitle = `${$t("Mises-a-jour")} • ${$t("Escalade Laurentides")}`;
+    $: pageTitle = `${$t("Mises-a-jour")} • ${$t("ParoisDuQuebec")}`;
 </script>
 
 <svelte:head>

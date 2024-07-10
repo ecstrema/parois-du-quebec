@@ -3,9 +3,9 @@
 </script>
 <footer>
     <div class="copyright">
-        <img src={Logo} alt="logo" width="60px" height="90px" style="margin-right: 20px;">
+        <Logo alt="logo" width="60px" height="90px" style="margin-right: 20px;"/>
         <p>Marche & Cornellier © {new Date().getFullYear()}</p>
-        <a class="gh" href="https://github.com/marr11317/escalade-laurentides" target="_blank" rel="noopener noreferrer">
+        <a class="gh" href="https://github.com/ecstrema/parois-du-quebec" target="_blank" rel="noopener noreferrer">
             <svg width="1.3em" height="1.3em" viewBox="0 0 24 24">
                 <path
                     fill="none"
