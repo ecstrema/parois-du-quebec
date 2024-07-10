@@ -14,9 +14,6 @@
 		"build:sitemap": "pnpm dlx svelte-sitemap --domain https://www.paroisduquebec.ca",
 		"rebuild": "pnpm run clean && pnpm run build",
 		"clean": "rm -rf .svelte-kit && rm -rf build && rm src/generated/translations.ts",
-		"deploy:gh": "node ./gh-pages-deploy.js",
-		"deploy": "pnpm run rebuild && pnpm run deploy:gh",
-		"publish": "pnpm run deploy",
 		"build:translations": "messageformat src/translations/ --outfile=src/generated/translations.ts",
 		"watch:translations": "pnpm run build:translations && onchange 'src/translations/**' -- pnpm run build:translations"
 	},
