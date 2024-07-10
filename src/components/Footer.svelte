@@ -3,7 +3,7 @@
 </script>
 <footer>
     <div class="copyright">
-        <Logo alt="logo" width="60px" height="90px" style="margin-right: 20px;"/>
+        <Logo alt="logo" height="90px" style="margin-right: 20px;"/>
         <p>Marche & Cornellier © {new Date().getFullYear()}</p>
         <a class="gh" href="https://github.com/ecstrema/parois-du-quebec" target="_blank" rel="noopener noreferrer">
             <svg width="1.3em" height="1.3em" viewBox="0 0 24 24">
