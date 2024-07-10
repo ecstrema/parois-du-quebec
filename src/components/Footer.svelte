@@ -3,7 +3,7 @@
 </script>
 <footer>
     <div class="copyright">
-        <Logo alt="logo" width="90px" height="90px" style="margin-right: 10px;"/>
+        <Logo alt="logo" width="90px" height="90px" viewBox="0 0 377.95276 442.72978" style="margin-right: 10px;"/>
         <p>Marche & Cornellier © {new Date().getFullYear()}</p>
         <a class="gh" href="https://github.com/ecstrema/parois-du-quebec" target="_blank" rel="noopener noreferrer">
             <svg width="1.3em" height="1.3em" viewBox="0 0 24 24">
@@ -29,7 +29,7 @@
     .gh {
         margin-left: 10px;
         stroke: rgb(129, 129, 129);
-        transition: stroke 0.2s ease;
+        transition: none;
 
         cursor: pointer;
         text-decoration: none;
