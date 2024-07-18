@@ -1,4 +1,5 @@
-- **page 2, description de la photo de couverture**: La cote de la voie *Moby Dick* devrait être 11b comme à la page 116.
+- **Page 2, description de la photo de couverture**: La cote de la voie *Moby Dick* devrait être 11b comme à la page 116.
+- **page 14**: Fig. ~4~ 5 Orogenèse Acadienne.
 - **Page 15, en bas à droite**: Il existe cependant un étonnant îlot de bon ~calcaire~ *granit* dans le parc des Chic-Chocs.
 - **Page 111**: Il semble que la fissure au milieu du Cerveau entre les deux hémisphères (entre les voies 5 et 6) , a été faite en tête depuis au moins le début des années 1990.
 - **Page 122, voie 6**: Les ouvreurs de la voie *Perfecto* sont Conrad Fournier et ~Benoit Dubé~ Alain Hénault.
