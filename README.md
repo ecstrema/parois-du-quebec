@@ -6,6 +6,7 @@ Le code source pour [paroisduquebec.ca](https://www.paroisduquebec.ca), successe
 
 1) `pnpm run build:translations` pour construire les fichiers js de traduction.
 2) `pnpm run dev` pour lancer l'application
+3) pour visualiser en local: http://localhost:5173/
 
 Pour publier, simplement `git push` la branche `main` sur GitHub qui s'occupera de déployer le site.
 
