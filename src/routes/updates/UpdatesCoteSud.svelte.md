@@ -1,8 +1,9 @@
 - **Page 2, description de la photo de couverture**: La cote de la voie *Moby Dick* devrait être 11b comme à la page 116.
 - **page 14**: Fig. ~4~ 5 Orogenèse Acadienne.
 - **Page 15, en bas à droite**: Il existe cependant un étonnant îlot de bon ~calcaire~ *granit* dans le parc des Chic-Chocs.
+- **Page 60, voies 1-4**: Le nom d'*Élie* à été déformé. La version exacte est *Élie Dumas-Lefebvre*.
 - **Page 111**: Il semble que la fissure au milieu du Cerveau entre les deux hémisphères (entre les voies 5 et 6) , a été faite en tête depuis au moins le début des années 1990.
-- **Page 122, voie 6**: Les ouvreurs de la voie *Perfecto* sont Conrad Fournier et ~Benoit Dubé~ Alain Hénault.
+- **Page 122, voie 6**: Les ouvreurs de la voie *Perfecto* sont Conrad Fournier et ~Benoit Dubé~ *Alain Hénault*.
 - **Page 133**: Dans un topo de Patrick Dubuc des années 90, il est mentionné, après *Le Tango des Tomates*, «Vous pouvez marcher vers la droite longtemps et vous trouverez un nouveau secteur. Pour l’instant, une seule nouvelle voie : *À tout Respect* 5.11 (Steve Houde).». Il manque d'information pour déterminer s'il s'agit d'une des voies du secteur Vétérans...
 - **Pages 178 et 179**: Le tracé du *Bœuf à Gauche de la Charrue* (voie 5) passe du mauvais côté de la voie 4. Il devrait en fait partir de la voie 6 qui est la *Charrue avant les Bœufs*.
 - **Page 182, voie 3**: Le rééquipement de la voie *D'Autres Chats à Fouetter* à été réalisé entre 2018 et 2021 par Denys Dubuc, François Genin, Phil Hardy, Stéphane Lapierre et Simon Nadeau.
