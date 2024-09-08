@@ -2,7 +2,7 @@
 
 <enhanced:img src="./JoyeuxMimi.jpg?w=500" alt="Joyeux Mimi" />
 
-- **page 29 Nouvelle ligne en 14a dans le Dévers des Anges**: Libérer le trésor, 14a. Une combinaison qui traverse le dévers de gauche en droite: débuter par les deux premiers ancrages de *Bob la Couette*; rejoindre ensuite *Pour le Meilleur et Pour le Pire* vers la droite dans un mouvement évident; terminer au relais encore plus à droite avec la finale de *Joyeux Mimi*. Trois problèmes de bloc séparés par de mauvais repos (V7+, V8+, V5). Attention au mousquetonnage engageant pour rejoindre *Pour le Meilleur et pour le Pire*. Maxime Gauthieur 2024
+- **page 29 Nouvelle ligne en 14a dans le Dévers des Anges**: Libérer le trésor, 14a. Une combinaison qui traverse le dévers de gauche à droite: débuter par les deux premiers ancrages de *Bob la Couette*; rejoindre ensuite *Pour le Meilleur et Pour le Pire* vers la droite dans un mouvement évident; terminer au relais encore plus à droite avec la finale de *Joyeux Mimi*. Trois problèmes de bloc séparés par de mauvais repos (V7+, V8+, V5). Attention au mousquetonnage engageant pour rejoindre *Pour le Meilleur et pour le Pire*. Maxime Gauthieur 2024
 - **page 76 voie numéro 12, première phrase**: ...en direction du relais ~de gauche~ *du centre* sur la vire.
 - **page 93 dernière phrase**: ~Richard~ *Patrick* Brocoli et André Laperrière ...
 - **page 111&113**: Last Man Standing ~5.10a~ *5.10c*
