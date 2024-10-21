@@ -2,7 +2,11 @@
 
 <enhanced:img src="./JoyeuxMimi.jpg?w=500" alt="Joyeux Mimi" />
 
-- **page 29 Nouvelle ligne en 14a dans le Dévers des Anges**: Libérer le trésor, 14a. Une combinaison qui traverse le dévers de gauche à droite: débuter par les deux premiers ancrages de *Bob la Couette*; rejoindre ensuite *Pour le Meilleur et Pour le Pire* vers la droite dans un mouvement évident; terminer au relais encore plus à droite avec la finale de *Joyeux Mimi*. Trois problèmes de bloc séparés par de mauvais repos (V7+, V8+, V5). Attention au mousquetonnage engageant pour rejoindre *Pour le Meilleur et Pour le Pire*. Maxime Gauthieur 2024
+- **page 29 Nouvelle ligne en 14a dans le Dévers des Anges**: Libérer le Trésor, 14a Sport. Une combinaison qui traverse le dévers de gauche à droite: débuter par les deux premiers ancrages de *Bob la Couette*; rejoindre ensuite *Pour le Meilleur et Pour le Pire* vers la droite dans un mouvement évident; terminer au relais encore plus à droite avec la finale de *Joyeux Mimi*. Trois problèmes de bloc séparés par de mauvais repos (V7+, V8+, V5). Attention au mousquetonnage engageant pour rejoindre *Pour le Meilleur et Pour le Pire*. Maxime Gauthieur 2024
+- **page 29 Nouvelle ligne en 14b dans le Dévers des Anges**: Pokinoï, 14b Sport. La combinaison ultime du Dévers des Anges! Même traversée que *Libérer le Trésor*, mais au lieu de sortir dans la finale de *Joyeux Mimi*, poursuivre encore plus à droite dans une dizaine de mouvements athlétiques supplémentaires pour rejoindre le relais de *Wind Dancer*. Superbe diagonale débutant dans la voie de gauche pour se terminer dans la voie de droite (en rouge sur la photo). Maxime Gauthieur 2024
+
+<enhanced:img src="./Pokinoi.jpg?w=500" alt="Pokinoi" />
+
 - **page 76 voie numéro 12, première phrase**: ...en direction du relais ~de gauche~ *du centre* sur la vire.
 - **page 93 dernière phrase**: ~Richard~ *Patrick* Brocoli et André Laperrière ...
 - **page 111&113**: Last Man Standing ~5.10a~ *5.10c*
