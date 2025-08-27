@@ -25,3 +25,4 @@
 - **page 209 Les Malheurs de Sophie maintenant équipé**: Les Malheurs de Sophie &star;&star; 5.12a Sport 6 pl. Après les premiers mouvements faciles qui permettent de prendre un peu de hauteur, on s'engage dans le passage clé assez difficile à décoder. Au-dessus, le plaisir est maintenu par une excellente séquence soutenue jusqu'au sommet. Superbe enchaînement ! *Famille Marche, CMHL 2022*
 - **page 209 projet Dièdre maintenant équipé**: &star; 5.11c Sport 5 pl. Un dièdre retord comme certains grimpeurs contorsionnistes les aiment. Les autres souffrent dans des positions tordues souvent sans issues. *Famille Marche, CMHL 2022*
 - **page 146 Le Frigo Départ Assis**: &star; V11 Le départ assis du Frigo à été réussi en automne 2022 par Dave Heerema
+- **page 162 Var Pur Plaisir Droite**: L'ancien feuillet "résonnant et peu engageant" est tombé (hiver 24-25?). Une fissure est visible. À suivre... 
